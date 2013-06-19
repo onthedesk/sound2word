@@ -924,6 +924,12 @@ and (orientation : landscape) {
     .header-container .btn-openHelpPannel {
 	    padding: 15px;
     }
+    #question-audio-container {
+	    margin-left: 0;
+	    left: 10px;
+	    width: 300px;
+	    height: 300px;
+    }
 
 }
 
