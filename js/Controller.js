@@ -32,7 +32,6 @@ Controller.charactors;
 Controller.needPreload;
 
 Controller.prototype.startGame = function () {
-	this.getQuestionId();
     this.initBaseOnUrl();
 }
 
@@ -50,7 +49,7 @@ Controller.prototype.loadCharactors = function () {
 Controller.prototype.getQuestionId = function() {
 	var id = getURLParameter('id');
 	if ( id != null && id != "" ) {
-		this.currentQuestionIndex = parseInt(id);
+		this.currentQuestionIndex = this.questions.indexOfId(id);
 	} else {
 		this.currentQuestionIndex = 0;
 	}
@@ -72,10 +71,11 @@ Controller.prototype.loadAllQuestions = function () {
     });
 }
 
-Controller.prototype.loadCurrentQuestions = function() {
-	this.questionRepo = [];
-	this.questionRepo.push(this.questions[ this.currentQuestionIndex ]);
-	this.currentQuestionId = this.questions[ this.currentQuestionIndex ]['ID'];
+Controller.prototype.loadCurrentQuestions = function () {
+    this.questionRepo = [];
+    this.getQuestionId();
+    this.questionRepo.push(this.questions[this.currentQuestionIndex]);
+    this.currentQuestionId = this.questions[this.currentQuestionIndex]['ID'];
     preloadImages(this.questionRepo);
 }
 

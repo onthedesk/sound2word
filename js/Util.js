@@ -88,5 +88,20 @@ function getURLParameter($param) {
         return ret[1];  
     } else {  
         return "";  
-    }     
-} 
+    }
+}
+
+if (!Array.prototype.indexOfId) {
+    Array.prototype.indexOfId = function (id, fromIndex) {
+        if (fromIndex == null) {
+            fromIndex = 0;
+        } else if (fromIndex < 0) {
+            fromIndex = Math.max(0, this.length + fromIndex);
+        }
+        for (var i = fromIndex, j = this.length; i < j; i++) {
+            if (this[i].ID === id)
+                return i;
+        }
+        return -1;
+    };
+}
