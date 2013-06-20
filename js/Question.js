@@ -2,14 +2,14 @@
     this.questionData = questionData;
     this.questionData["imageUrl"] = imageUrl;
     this.questionData["answerArray"] = function () {
-        return this["answer"].split("");
+        return new Array(this["answer_char_count"]);
     };
     this.questionData["keyboardArray"] = function () {
-        var originchars = this["answer"].split("");
-        var defaultstring = this["keyboard"] + this["answer"];
+        var originchars=[];
+        var defaultstring = this["keyboard"];
         var that = this;
         this["keyboard"].split("").forEach(function(value) {
-        	if ( that["answer"].indexOf(value) < 0 && originchars.length < 24) {
+        	if (  originchars.length < 24) {
 	        	originchars.push(value);
         	}
         });

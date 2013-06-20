@@ -93,7 +93,8 @@ Controller.prototype.isAnswerCorrect = function () {
 }
 
 Controller.prototype.isAnswerCorrectByText = function (answerText) {
-    if (this.questionRepo[this.currentQuestionIndex]["answer"] == answerText) {
+    var encodedAnswerText = $.md5(answerText, answerText);
+    if (this.questionRepo[this.currentQuestionIndex]["answer"] == encodedAnswerText) {
         return true;
     }
     return false;
