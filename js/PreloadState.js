@@ -1,6 +1,6 @@
 var preload;
 function OnEnterPreloadState() {
-    controller.loadAllQuestions();
+	controller.handlePreloadRequest();
 	if ( !controller.isFinish )	{
 		ptwUI.showLoadingUI();
 		_hmt.push(['_trackPageview', '/preload']);

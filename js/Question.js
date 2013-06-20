@@ -40,7 +40,7 @@
         
         var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
 		{
-					m4a: window.location.href + this.questionData['imageUrl']
+					m4a: window.location.pathname + this.questionData['imageUrl']
 		}, {
 					cssSelectorAncestor: "#question-audio"
 		});

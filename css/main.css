@@ -72,7 +72,7 @@ body {
 
 .header-container
  {
-    background: #1a6279 url(../img/topbg.jpg) repeat-x left bottom;
+    background: #d43424 url(../img/topbg.jpg) repeat-x left bottom;
 }
 .main aside {
 	
@@ -601,31 +601,31 @@ h4 {
 	to { transform: rotate(360deg); }
 }
 @-webkit-keyframes spin {
-			from {
-				-webkit-transform: rotate(0deg);
-			}
-			to {
-				-webkit-transform: rotate(360deg);
-			}
+	from {
+			-webkit-transform: rotate(0deg);
+	}
+	to {
+			-webkit-transform: rotate(360deg);
 		}
+}
 		
-		@-moz-keyframes spin {
+@-moz-keyframes spin {
 			from {
 				-moz-transform: rotate(0deg);
 			}
 			to {
 				-moz-transform: rotate(360deg);
 			}
-		}
+}
 		
-		@-ms-keyframes spin {
+@-ms-keyframes spin {
 			from {
 				-ms-transform: rotate(0deg);
 			}
 			to {
 				-ms-transform: rotate(360deg);
 			}
-		}
+}
 #question-audio-record {
 	background: url(../img/record.png) no-repeat center center;
 	width: 100%;
@@ -733,11 +733,12 @@ and (orientation : landscape) {
 		z-index: 99;
 	}
 
-	.question-pic {
-		width: 150px;
-		height: 150px;
-		border-width: 5px;
-		margin-top: 25px;
+	#question-audio-container {
+		width: 200px;
+		height: 200px;
+		margin-left:0;
+		left:3%;
+		top: 0;
 	}
 	.main article{
 		position: relative;
@@ -762,7 +763,7 @@ and (orientation : landscape) {
 		line-height: 20px;
 		font-size: 0.6em;
 		margin-left: -75px;
-		top:-23px;
+		top:-15px;
 	}
     .main aside {
         float: right;
@@ -791,7 +792,7 @@ and (orientation : landscape) {
 	#progress_bar_container {
 		float: right;
 		display: inline-block;
-		width: 58%;
+		width: 40%;
 	}
 	#play-success-share,#play-success-next {
 		display: inline-block;

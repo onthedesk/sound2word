@@ -75,7 +75,14 @@ PtwUI.prototype.init = function() {
 		_hmt.push(['_trackEvent', 'CopyUrl', 'click']);
 		copyToClipboard('http://pictoword.hortorgame.com');
 	});
-
+	this.successUI.find('#play-success-next').on(this.touchEnd, function(){
+        if ( that.controller.needPreload == true ) {
+			SM.SetStateByName("preload");
+		} else {
+			that.showCurrentQuestion();
+		}
+		
+	});
 
 }
 PtwUI.prototype.switchPageTo = function( $targetPage ) {
@@ -132,7 +139,11 @@ PtwUI.prototype.showSuccessUI= function(){
 	this.successUI.show();
 	_hmt.push(['_trackPageview', '/success']);
     
-
+	this.addAnimation('#play-success-title', 'bounceIn', 500, null);
+    this.addAnimation('#play-success-level', 'bounceIn', 500, null);
+    this.addAnimation('#play-success-answer', 'bounceIn', 500, null);
+    this.addAnimation('#play-success-action', 'bounceIn', 500, null);
+    this.playAnimationsFrom(0);
 }
 PtwUI.prototype.hideSuccessUI = function() {
 	this.successUI.hide();
