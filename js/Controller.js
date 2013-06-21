@@ -55,8 +55,6 @@ Controller.prototype.startGame = function () {
 		    this.loadLevelsFromCookie();
 	    } 
     }
-    
-    
 }
 
 Controller.prototype.getQuestionDate = function() {
@@ -74,17 +72,17 @@ Controller.prototype.getQuestionId = function() {
 		this.enableSingleQuestionMode();
 	}
 }
-Controller.prototype.enableSingleQuestionMode = function() {
-		this.forceFromCurrent = false;
-	    this.readLevelsFromCookie = false;
-	    this.isAllowCookie = false;
-	    
-	    this.currentQuestionBatch = 1;
-	    this.currentQuestionId = 1;
-	    this.currentQuestionIndex = 0;
-	    this.currentQuestionLevel = 1;
-	    
-	    this.isSingleQuestionMode = true;
+
+Controller.prototype.enableSingleQuestionMode = function () {
+    this.forceFromCurrent = false;
+    this.readLevelsFromCookie = false;
+    this.isAllowCookie = false;
+    this.currentQuestionBatch = 1;
+    this.currentQuestionId = 1;
+    this.currentQuestionIndex = 0;
+    this.currentQuestionLevel = 1;
+    this.questionRepoSize = 1;
+    this.isSingleQuestionMode = true;
 }
 Controller.prototype.loadFromCookie = function () {
     var controllerData = readCookie(GameCookieKey);
@@ -177,36 +175,37 @@ Controller.prototype.loadSingleQuestion = function() {
  	}
 }
 Controller.prototype.loadCurrentQuestions = function () {
- 	if ( this.isSingleQuestionMode ) {
- 		this.loadSingleQuestion();
- 		
- 		preloadImages(this.questionRepo);
-	 	return;
- 	}
-    var start, end, repoLevels=[], that = this;
-	start = (this.currentQuestionBatch - 1) * this.questionRepoSize;
-	end = Math.min( this.questions.length, start + this.questionRepoSize);
-	if ( start > end ) {
-		//no more questions
-		this.saveInCookie();
-		controller.isFinish = true;
-		SM.SetStateByName('finish');
-		return;
-	}
-	this.questionRepo = [];
-	repoLevels = this.questionLevels.slice(start, end);
-	repoLevels.forEach( function(value, index ) {
-		that.questionRepo.push(that.questions[value]);
-	});
-	if (this.forceFromCurrent == false) {
-            this.currentQuestionIndex = 0;
-            this.currentQuestionLevel = 1;
-            this.nextQuestionLevel = this.currentQuestionLevel + 1;
+    if (this.isSingleQuestionMode) {
+        this.loadSingleQuestion();
+
+        preloadImages(this.questionRepo);
+        return;
+    }
+    var start, end, repoLevels = [], that = this;
+    start = (this.currentQuestionBatch - 1) * this.questionRepoSize;
+    end = Math.min(this.questions.length, start + this.questionRepoSize);
+
+    if (start > end) {
+        //no more questions
+        this.saveInCookie();
+        controller.isFinish = true;
+        SM.SetStateByName('finish');
+        return;
+    }
+    this.questionRepo = [];
+    repoLevels = this.questionLevels.slice(start, end);
+    repoLevels.forEach(function (value, index) {
+        that.questionRepo.push(that.questions[value]);
+    });
+    if (this.forceFromCurrent == false) {
+        this.currentQuestionIndex = 0;
+        this.currentQuestionLevel = 1;
+        this.nextQuestionLevel = this.currentQuestionLevel + 1;
     }
     this.currentQuestionId = this.questionRepo[this.currentQuestionIndex]["ID"];
     this.saveInCookie();
-    
-    
+
+
     preloadImages(this.questionRepo);
 }
 
@@ -231,7 +230,6 @@ Controller.prototype.isAnswerCorrectByText = function (answerText) {
     return false;
 }
 Controller.prototype.processToNextQuestion = function () {
-
     if (this.questionRepo.length > this.currentQuestionIndex + 1) {
         this.currentQuestionIndex++;
         this.currentQuestionLevel++;
