@@ -1,4 +1,6 @@
 var preload;
+var loadingProgress;
+var event = { "loaded": 0 };
 function OnEnterPreloadState() {
 	controller.handlePreloadRequest();
 	if ( !controller.isFinish )	{
@@ -6,10 +8,10 @@ function OnEnterPreloadState() {
 		_hmt.push(['_trackPageview', '/preload']);
 		controller.isPreloadFinished = true;
 		controller.isPreloadTimeUp = false;
+		loadingProgress = setInterval(fakeProgress, 1000);
 		controller.preloadTimer = setTimeout("preloadTimeUp()", controller.minPreloadTime);
 	}
 }
-
 function OnExitPreloadState()
 {
 }
@@ -27,8 +29,15 @@ function preloadImages(questions) {
     	ptwUI.addQuestion(question);
     }
 }
-
+function fakeProgress() {
+    event.loaded += 1000/controller.minPreloadTime;
+    if (event.loaded > 1) {
+        clearInterval(loadingProgress);
+    }
+    ptwUI.showLoadingUIProgress(event);
+}
 function handleProgress(event) {
+    
     ptwUI.showLoadingUIProgress(event);
 }
 

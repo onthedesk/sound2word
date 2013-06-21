@@ -25,7 +25,7 @@ function Controller() {
     this.readLevelsFromCookie = false;
     
     //preload
-    this.minPreloadTime = 2000;
+    this.minPreloadTime = 8000;
     this.isPreloadFinished = false;
     this.isPreloadTimeUp = false;
     this.preloadTimer;
@@ -43,9 +43,8 @@ Controller.charactors;
 Controller.needPreload;
 
 Controller.prototype.startGame = function () {
-    
-    this.getQuestionDate();
     this.getQuestionId();
+    this.getQuestionDate();
     
     if ( ! this.isSingleQuestionMode ) {
 	    if (readCookie(GameCookieKey) != null) {
@@ -65,12 +64,15 @@ Controller.prototype.getQuestionDate = function() {
     }
 }
 
-Controller.prototype.getQuestionId = function() {
-	var id = getURLParameter('id');
-	if ( id != null && id != "" ) {
-		this.singleQuestionId = id;
-		this.enableSingleQuestionMode();
-	}
+Controller.prototype.getQuestionId = function () {
+    var id = getURLParameter('id');
+    var date = getURLParameter('date');
+    if (id != null && id != "") {
+        if (date == null || date == "") { // if date and id both get set, we would take questions from date. 
+            this.singleQuestionId = id;
+        }
+        this.enableSingleQuestionMode();
+    }
 }
 
 Controller.prototype.enableSingleQuestionMode = function () {
@@ -130,17 +132,26 @@ Controller.prototype.handlePreloadRequest = function() {
 Controller.prototype.loadAllQuestions = function () {
     var that = this;
     var filename = "questions.json";
-    
-    if ( this.isSingleQuestionMode && this.singleQuestionId != "" ) {
-	   filename = "questions_full.json";
+
+    if (this.isSingleQuestionMode && this.singleQuestionId != "") {
+        filename = "questions_full.json";
     }
-    $.getJSON( this.dataBaseUrl + filename , function(data) {
-    	that.questions = data["questions"];
-    	if ( data["questionRepoSize"] ) {
-	    	that.questionRepoSize = data["questionRepoSize"];
-    	}
-    	that.generateLevels();
-    	that.loadCurrentQuestions();
+    $.ajax({
+        url: this.dataBaseUrl + filename,
+        dataType: 'json',
+        error: function () {
+            that.dataBaseUrl = "data/";
+            that.singleQuestionId = "";
+            that.loadAllQuestions();
+        },
+        success: function (data) {
+            that.questions = data["questions"];
+            if (data["questionRepoSize"]) {
+                that.questionRepoSize = data["questionRepoSize"];
+            }
+            that.generateLevels();
+            that.loadCurrentQuestions();
+        }
     });
 }
 
