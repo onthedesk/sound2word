@@ -963,6 +963,10 @@ and (orientation : landscape) {
 	    height: 350px;
 	    margin-bottom: 1em;
     }
+    #question-audio-container {
+	    width: 360px;
+	    height: 360px;
+    }
     .answer-key {
 	    font-size: 1.5em;
 		width: 2em;
