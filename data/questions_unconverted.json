@@ -1,14 +1,62 @@
 ﻿{
 "questions":[{
-        "answer": "侏罗纪公园",
-        "category": "电影&电视",
-        "ID": 13,
-        "keyboard": "儒汉人恐龙总动员世时代主王国"
+        "answer": "因为爱情",
+        "category": "歌曲名",
+        "ID": "1",
+        "keyboard": "怒放的生命孙悟空中国人"
+    },{
+        "answer": "真心英雄",
+        "category": "歌曲名",
+        "ID": "2",
+        "keyboard": "怒放的生命孙悟空中国人"
+    },{
+        "answer": "菊花台",
+        "category": "歌曲名",
+        "ID": "3",
+        "keyboard": "青花瓷秋意浓牡丹花开"
+    },{
+        "answer": "蓝莲花",
+        "category": "歌曲名",
+        "ID": "4",
+        "keyboard": "怒放的生命孙悟空中国人"
+    },{
+        "answer": "真心英雄",
+        "category": "歌曲名",
+        "ID": "5",
+        "keyboard": "怒放的生命孙悟空中国人"
+    },{
+        "answer": "甜蜜蜜",
+        "category": "歌曲名",
+        "ID": "6",
+        "keyboard": "青花瓷秋意浓牡丹花开"
+    },{
+        "answer": "白桦林",
+        "category": "歌曲名",
+        "ID": "7",
+        "keyboard": "怒放的生命孙悟空中国人"
+    },{
+        "answer": "盛夏的果实",
+        "category": "歌曲名",
+        "ID": "8",
+        "keyboard": "中国人有你我有我大爱天朝"
     },
+    
     {
-        "answer": "乔布斯",
-        "category": "明星&名人",
-        "ID": 14,
-        "keyboard": "老爷不死治鲁门拉齐奥"
+        "answer": "青花瓷",
+        "category": "歌曲名",
+        "ID": "9",
+        "keyboard": "菊花台东风破千里之外窗外的雪"
+    },{
+        "answer": "爱我别走",
+        "category": "歌曲名",
+        "ID": "10",
+        "keyboard": "中国人有你我有我大爱天朝"
+    },
+    
+    {
+        "answer": "爱的主打歌",
+        "category": "歌曲名",
+        "ID": "11",
+        "keyboard": "菊花台东风破千里之外窗外的雪"
     }]
 }

@@ -1,76 +1,69 @@
 ﻿{
-"questions" : 
-	[{
-  "answer": "0573cacb137c4e9eada3bc4512b73032",
+"questions":[{
+  "answer": "ba8dbab047b73c92ba594255fb75c69a",
+  "category": "歌曲名",
   "ID": "1",
-  "category": "公司&品牌",
-  "keyboard": "可乐水爱可汽中口国",
+  "keyboard": "孙的中爱悟人情生放空命为国怒因",
   "answer_char_count": 4
 }, {
-  "answer": "e78d868ede0c13b8b889de138b2b99c0",
+  "answer": "88db283c87a3a8d8af7103333bae9db1",
+  "category": "歌曲名",
   "ID": "2",
-  "category": "明星&名人",
-  "keyboard": "人尔里耐艾姆奇摩坦纳基斯爱居因夫米",
+  "keyboard": "放生心国人命雄的空中怒孙英真悟",
   "answer_char_count": 4
 }, {
-  "answer": "e415e2a71169d931acba3d2c0bfd873e",
+  "answer": "940bf6c87c3f84bf00fded5ce0f35d16",
+  "category": "歌曲名",
   "ID": "3",
-  "category": "公司&品牌",
-  "keyboard": "七色喜青碧雪啤绿酒岛花",
-  "answer_char_count": 2
+  "keyboard": "花台花浓花开秋瓷牡丹意青菊",
+  "answer_char_count": 3
 }, {
-  "answer": "e10945de4ba6837447d543b45f332e96",
+  "answer": "89284e2ecf38ec5f72c19cb191b66785",
+  "category": "歌曲名",
   "ID": "4",
-  "category": "公司&品牌",
-  "keyboard": "油化国中平美日英安本孚寿石人",
-  "answer_char_count": 4
+  "keyboard": "的空怒悟生命放莲花中孙蓝人国",
+  "answer_char_count": 3
 }, {
-  "answer": "b1121597f5efad25cd9225a8e9ccd9f2",
+  "answer": "88db283c87a3a8d8af7103333bae9db1",
+  "category": "歌曲名",
   "ID": "5",
-  "category": "电影&电视",
-  "keyboard": "林市恶守空巨筑防击攻金丛刚魔飞建人光高机都",
-  "answer_char_count": 2
-}, {
-  "answer": "4e43ecd50c24c686423278fef1039292",
-  "ID": "6",
-  "category": "明星&名人",
-  "keyboard": "尼巴乔罗纳肥迪小蒂比尔多大奥胖",
+  "keyboard": "国英空雄命心悟中孙的放生人真怒",
   "answer_char_count": 4
 }, {
-  "answer": "7a73f2bed5a190ad5a66c9820e18072f",
+  "answer": "3c414413dc673de47142099f14551df8",
+  "category": "歌曲名",
+  "ID": "6",
+  "keyboard": "花浓瓷秋青意牡蜜开丹花甜蜜",
+  "answer_char_count": 3
+}, {
+  "answer": "b39b918d5c86bee0a09ed4ccb7eab473",
+  "category": "歌曲名",
   "ID": "7",
-  "category": "电影&电视",
-  "keyboard": "撞克落号沉达坦泰铁掉尼没大幽尼碰轮灵船",
+  "keyboard": "桦空人白林怒命放悟生的中国孙",
+  "answer_char_count": 3
+}, {
+  "answer": "5c8dd7e2d4516df42f4c7981eb8c95ee",
+  "category": "歌曲名",
+  "ID": "8",
+  "keyboard": "果爱朝大实你中人有天盛的有我我国夏",
   "answer_char_count": 5
 }, {
-  "answer": "12b2eb4c8821db87f056617eb1395722",
-  "ID": "8",
-  "category": "公司&品牌",
-  "keyboard": "孚通英超用白美器霸南象",
-  "answer_char_count": 2
-}, {
-  "answer": "f8f101636b66d0c25485dd8ec3fd0fa9",
+  "answer": "e5d0f534e6231042f4963be9eda54b6d",
+  "category": "歌曲名",
   "ID": "9",
-  "category": "明星&名人",
-  "keyboard": "斯别尔丘佩卓希陈林勒西吉法特",
+  "keyboard": "之窗瓷外的花台风里青东破菊雪外千花",
   "answer_char_count": 3
 }, {
-  "answer": "9755809bd099a98826a9bd47948d593f",
+  "answer": "c6e55e67fa8641e7623c049b5f36dc57",
+  "category": "歌曲名",
   "ID": "10",
-  "category": "电影&电视",
-  "keyboard": "奇日侠术帝盗武忍神士龟本者人四仙怪国",
+  "keyboard": "天人我中国你有有走朝爱大我爱我别",
   "answer_char_count": 4
 }, {
-  "answer": "3205657e27226519670a32c60dcce1bf",
+  "answer": "0680607eceb2c5e89d9e0ee70bdca69c",
+  "category": "歌曲名",
   "ID": "11",
-  "category": "明星&名人",
-  "keyboard": "华庚坦润罗陈爱夫人因居迪景生里斯",
-  "answer_char_count": 4
-}, {
-  "answer": "fbcf6e12f1afb9f169df7da5d90b8364",
-  "category": "公司&品牌",
-  "ID": "12",
-  "keyboard": "果脸苹歌麻书达超讯卓谱越逊亚谷马自",
-  "answer_char_count": 3
+  "keyboard": "风里打外歌窗破千的雪主东菊花台之外的爱",
+  "answer_char_count": 5
 }]
 }

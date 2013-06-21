@@ -223,7 +223,7 @@ Controller.prototype.loadCurrentQuestions = function () {
     preloadImages(this.questionRepo);
 }
 Controller.prototype.setCurrentSongUrl = function() {
-	var fileUrl = window.location.pathname + controller.dataBaseUrl + "music/" + sprintf("__%05d.m4a", this.currentQuestionId);
+	var fileUrl = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) + controller.dataBaseUrl + "music/" + sprintf("__%05d.m4a", this.currentQuestionId);
 	this.songPlayer.setMedia({
 		m4a: fileUrl
 	});
