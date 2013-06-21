@@ -76,6 +76,11 @@ PtwUI.prototype.init = function() {
 		copyToClipboard('http://pictoword.hortorgame.com');
 	});
 	this.successUI.find('#play-success-next').on(this.touchEnd, function(){
+        if ( that.controller.isSingleQuestionMode ) {
+			
+			SM.SetStateByName("finish");
+			return;
+		}
         if ( that.controller.needPreload == true ) {
 			SM.SetStateByName("preload");
 		} else {
