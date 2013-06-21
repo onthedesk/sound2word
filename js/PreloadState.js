@@ -11,6 +11,9 @@ function OnEnterPreloadState() {
 		loadingProgress = setInterval(fakeProgress, 1000);
 		controller.preloadTimer = setTimeout("preloadTimeUp()", controller.minPreloadTime);
 	}
+	
+	controller.initSongPlayer();
+	
 }
 function OnExitPreloadState()
 {

@@ -32,6 +32,9 @@ function Controller() {
     //data url
     this.dataBaseUrl = "data/";
     
+    //song player
+    this.songPlayer;
+    
     this.loadCharactors();
     
 }
@@ -219,7 +222,37 @@ Controller.prototype.loadCurrentQuestions = function () {
 
     preloadImages(this.questionRepo);
 }
+Controller.prototype.setCurrentSongUrl = function() {
+	var fileUrl = window.location.pathname + controller.dataBaseUrl + "music/" + sprintf("__%05d.m4a", this.currentQuestionId);
+	this.songPlayer.setMedia({
+		m4a: fileUrl
+	});
+	this.songPlayer.play();
+	
+}
+Controller.prototype.initSongPlayer = function() {
+	this.songPlayer = new CirclePlayer("#jquery_jplayer_1",
+	{ }, {
+		cssSelectorAncestor: "#question-audio"
+	});
+	
+	this.songPlayer.player.bind($.jPlayer.event.ready, function(event) {
+			$(this).bind($.jPlayer.event.play, function(event) {
+					$('#question-audio-record').addClass('span');
+			});
+			$(this).bind($.jPlayer.event.pause, function(event) {
+					$('#question-audio-record').removeClass('span');
+			});
+			$(this).bind($.jPlayer.event.stop, function(event) {
+					$('#question-audio-record').removeClass('span');
+			});
+			$(this).unbind($.jPlayer.event.ready);
+	});
 
+	
+	
+	
+}
 Controller.prototype.handleAnswerCorrect = function() {
 	SM.SetStateByName('finish');
 }

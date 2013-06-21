@@ -92,6 +92,8 @@ PtwUI.prototype.init = function() {
 	  that.setRecordPosition();
 	  that.setAnswerBoxPosition(that.currentQuestionUI);
 	});
+	
+	
 
 }
 PtwUI.prototype.switchPageTo = function( $targetPage ) {
@@ -162,9 +164,12 @@ PtwUI.prototype.showCurrentQuestion = function () {
 	this.answer = '';
 	var currentId = this.controller.currentQuestionId;
 	
+	this.controller.setCurrentSongUrl();
+	
 	this.hideSuccessUI();
     $('.question').attr('class','question').hide();
     this.setQuestionLevelText();
+        
     
     if ( this.currentQuestionUI ) {
 	    this.currentQuestionUI = $('#question-' + currentId).addClass('animated bounceInRight').show();
@@ -173,6 +178,9 @@ PtwUI.prototype.showCurrentQuestion = function () {
     }
     this.setAnswerBoxPosition(this.currentQuestionUI);
     this.setRecordPosition();
+}
+PtwUI.prototype.playCurrentSong = function() {
+	
 }
 PtwUI.prototype.setAnswerBoxPosition = function(currentQuestion) {
 	

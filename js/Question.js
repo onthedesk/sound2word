@@ -38,11 +38,5 @@
         var compiledTemplate = Mustache.compile(document.getElementById("questionTmpl").text);
         this.questionUI = compiledTemplate(this.questionData);
         
-        var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
-		{
-					m4a: window.location.pathname + this.questionData['imageUrl']
-		}, {
-					cssSelectorAncestor: "#question-audio"
-		});
     }
 }

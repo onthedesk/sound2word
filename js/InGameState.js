@@ -31,7 +31,7 @@ function OnEnterInGameState() {
         }
     });
     
-    $("audio")[0].play();
+    
 	//controller.startGame();
 	_hmt.push(['_trackPageview', '/ingame']);
 }
