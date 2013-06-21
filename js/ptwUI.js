@@ -88,6 +88,10 @@ PtwUI.prototype.init = function() {
 		}
 		
 	});
+	$(window).resize(function() {
+	  that.setRecordPosition();
+	  that.setAnswerBoxPosition(that.currentQuestionUI);
+	});
 
 }
 PtwUI.prototype.switchPageTo = function( $targetPage ) {
@@ -167,7 +171,8 @@ PtwUI.prototype.showCurrentQuestion = function () {
     } else {
 	    this.currentQuestionUI = $('#question-' + currentId).show();
     }
-    this.setAnswerBoxPosition(this.currentQuestionUI);   
+    this.setAnswerBoxPosition(this.currentQuestionUI);
+    this.setRecordPosition();
 }
 PtwUI.prototype.setAnswerBoxPosition = function(currentQuestion) {
 	
@@ -178,6 +183,13 @@ PtwUI.prototype.setAnswerBoxPosition = function(currentQuestion) {
    		answerBox.css('width',(width+30) + 'px')
    		.css('margin-left', '-' + (width/2) + 'px');
    
+}
+PtwUI.prototype.setRecordPosition = function() {
+	var audio = $('#question-audio-container');
+	var question = $('.question:visible');
+	var pic = question.find('.question-pic');
+	var offsetLeft = parseFloat(pic.offset().left) - parseFloat(question.offset().left);
+	audio.css('left', offsetLeft);
 }
 PtwUI.prototype.showLoadingUI= function(){
 	this.hideSuccessUI();
