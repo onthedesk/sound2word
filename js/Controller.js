@@ -25,7 +25,7 @@ function Controller() {
     this.readLevelsFromCookie = false;
     
     //preload
-    this.minPreloadTime = 8000;
+    this.minPreloadTime = 3000;
     this.isPreloadFinished = false;
     this.isPreloadTimeUp = false;
     this.preloadTimer;
@@ -274,6 +274,7 @@ Controller.prototype.isAnswerCorrectByText = function (answerText) {
     return false;
 }
 Controller.prototype.processToNextQuestion = function () {
+	this.songPlayer.player.jPlayer('stop');
     if (this.questionRepo.length > this.currentQuestionIndex + 1) {
         this.currentQuestionIndex++;
         this.currentQuestionLevel++;

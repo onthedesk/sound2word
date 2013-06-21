@@ -412,7 +412,6 @@ h1,h2,h3,h4 {
 	left: -10px;
 	bottom: -5px;
 	font-size: 1.5em;
-	text-shadow: 1px 1px 0px #8a0022;
 	background: url(../img/level.png) center center no-repeat;
 	background-size: 100% 100%;
 	width: 70px;
@@ -420,6 +419,8 @@ h1,h2,h3,h4 {
 	overflow: hidden;
 	line-height: 70px;
 	visibility: hidden;
+	color: #d43424;
+
 }
 #page-start{
 	text-align: center;
@@ -669,6 +670,8 @@ body {
 	font-size: 1.5em;
 	background:url(../img/level.png) no-repeat center center;
 	background-size: 100% 100%;
+	color: #d43424;
+
 }
 #play-success-answer {
 	padding: 0.5em 0 1em;

@@ -8,7 +8,7 @@ function OnEnterPreloadState() {
 		_hmt.push(['_trackPageview', '/preload']);
 		controller.isPreloadFinished = true;
 		controller.isPreloadTimeUp = false;
-		loadingProgress = setInterval(fakeProgress, 1000);
+		loadingProgress = setInterval(fakeProgress, 500);
 		controller.preloadTimer = setTimeout("preloadTimeUp()", controller.minPreloadTime);
 	}
 	
@@ -33,7 +33,7 @@ function preloadImages(questions) {
     }
 }
 function fakeProgress() {
-    event.loaded += 1000/controller.minPreloadTime;
+    event.loaded += 500/controller.minPreloadTime;
     if (event.loaded > 1) {
         clearInterval(loadingProgress);
     }
