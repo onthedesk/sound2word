@@ -23,7 +23,7 @@ function OnExitPreloadState()
 function preloadTimeUp() {
 	controller.isPreloadTimeUp = true;
 	if ( controller.isPreloadFinished ) {	
-    	SM.SetStateByName("inGame");
+    	//SM.SetStateByName("inGame");
     }
 }
 function preloadImages(questions) {
