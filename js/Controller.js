@@ -25,7 +25,7 @@ function Controller() {
     this.readLevelsFromCookie = false;
     
     //preload
-    this.minPreloadTime = 3000;
+    this.minPreloadTime = 2500;
     this.isPreloadFinished = false;
     this.isPreloadTimeUp = false;
     this.preloadTimer;

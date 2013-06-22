@@ -17,6 +17,8 @@ function OnEnterPreloadState() {
 }
 function OnExitPreloadState()
 {
+	clearInterval(loadingProgress);
+	clearTimeout(controller.preloadTimer);
 }
 function preloadTimeUp() {
 	controller.isPreloadTimeUp = true;
@@ -36,6 +38,7 @@ function fakeProgress() {
     event.loaded += 500/controller.minPreloadTime;
     if (event.loaded > 1) {
         clearInterval(loadingProgress);
+        event.loaded = 0;
     }
     ptwUI.showLoadingUIProgress(event);
 }
