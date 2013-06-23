@@ -36,6 +36,7 @@ function Controller() {
     this.songPlayer;
     
     this.loadCharactors();
+    this.preloadInGameUIImages();
     
 }
 
@@ -223,10 +224,15 @@ Controller.prototype.loadCurrentQuestions = function () {
     preloadImages(this.questionRepo);
 }
 Controller.prototype.setCurrentSongUrl = function() {
-	var fileUrl = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) + controller.dataBaseUrl + "music/" + sprintf("__%05d.m4a", this.currentQuestionId);
+	var url = "http://" + window.location.host + window.location.pathname;
+	url = url.substring(0, url.lastIndexOf('/') + 1);
+	var m4aUrl = url + controller.dataBaseUrl + "music/" + sprintf("__%05d.m4a", this.currentQuestionId);
+	var oggUrl = url + controller.dataBaseUrl + "music/" + sprintf("__%05d.ogg", this.currentQuestionId);
 	this.songPlayer.setMedia({
-		m4a: fileUrl
+		m4a: m4aUrl,
+		ogg: oggUrl
 	});
+	
 	this.songPlayer.play();
 	
 }
@@ -237,7 +243,7 @@ Controller.prototype.initSongPlayer = function() {
 	});
 	
 	this.songPlayer.player.bind($.jPlayer.event.ready, function(event) {
-			$(this).bind($.jPlayer.event.play, function(event) {
+			$('#jquery_jplayer_1').bind($.jPlayer.event.play, function(event) {
 					$('#question-audio-record').addClass('span');
 			});
 			$(this).bind($.jPlayer.event.pause, function(event) {
@@ -245,6 +251,14 @@ Controller.prototype.initSongPlayer = function() {
 			});
 			$(this).bind($.jPlayer.event.stop, function(event) {
 					$('#question-audio-record').removeClass('span');
+			});
+			
+			$(this).bind($.jPlayer.event.error), function(event) {
+				alert('很抱歉，音频加载出错了！请尝试刷新本页面。');
+			}
+			
+			$('audio').bind('error', function(e) {
+				alert('很抱歉，音频加载出错了！错误代码' + e.currentTarget.error.code);
 			});
 			$(this).unbind($.jPlayer.event.ready);
 	});
@@ -299,4 +313,11 @@ Controller.prototype.removeLetters = function () {
 
 Controller.prototype.update = function () {
     
+}
+Controller.prototype.preloadInGameUIImages = function() {
+	if (document.images) {
+		var img1 = new Image();
+		img1.src = "img/record.png";
+
+	}
 }
