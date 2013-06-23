@@ -19,11 +19,12 @@ function OnExitPreloadState()
 {
 	clearInterval(loadingProgress);
 	clearTimeout(controller.preloadTimer);
+	event.loaded = 0;
 }
 function preloadTimeUp() {
 	controller.isPreloadTimeUp = true;
 	if ( controller.isPreloadFinished ) {	
-    	//SM.SetStateByName("inGame");
+    	SM.SetStateByName("inGame");
     }
 }
 function preloadImages(questions) {
@@ -36,9 +37,8 @@ function preloadImages(questions) {
 }
 function fakeProgress() {
     event.loaded += 500/controller.minPreloadTime;
-    if (event.loaded > 1) {
+    if (event.loaded > 0.99) {
         clearInterval(loadingProgress);
-        event.loaded = 0;
     }
     ptwUI.showLoadingUIProgress(event);
 }

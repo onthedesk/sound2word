@@ -368,7 +368,7 @@ img {
 a {
 	text-decoration: none;
 }
-html {
+html,.main-container {
 	background:#2d2d2d url(../img/bodybg.png);
 }
 body {
