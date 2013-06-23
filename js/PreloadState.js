@@ -6,7 +6,6 @@ function OnEnterPreloadState() {
 	if ( !controller.isFinish )	{
 		ptwUI.showLoadingUI();
 		_hmt.push(['_trackPageview', '/preload']);
-		controller.isPreloadFinished = true;
 		controller.isPreloadTimeUp = false;
 		loadingProgress = setInterval(fakeProgress, 500);
 		controller.preloadTimer = setTimeout("preloadTimeUp()", controller.minPreloadTime);

@@ -26,7 +26,7 @@ function Controller() {
     
     //preload
     this.minPreloadTime = 2500;
-    this.isPreloadFinished = false;
+    this.isPreloadFinished = true;//for fake progress
     this.isPreloadTimeUp = false;
     this.preloadTimer;
     //data url
@@ -140,23 +140,26 @@ Controller.prototype.loadAllQuestions = function () {
     if (this.isSingleQuestionMode && this.singleQuestionId != "") {
         filename = "questions_full.json";
     }
-    $.ajax({
-        url: this.dataBaseUrl + filename,
-        dataType: 'json',
-        error: function () {
-            that.dataBaseUrl = "data/";
-            that.singleQuestionId = "";
-            that.loadAllQuestions();
-        },
-        success: function (data) {
+    $.getJSON( this.dataBaseUrl + filename, function (data) {
             that.questions = data["questions"];
             if (data["questionRepoSize"]) {
                 that.questionRepoSize = data["questionRepoSize"];
             }
             that.generateLevels();
             that.loadCurrentQuestions();
-        }
+    }).fail(function () {
+    		if ( that.isSingleQuestionMode ) {
+	    		that.dataBaseUrl = "data/";
+	            that.singleQuestionId = "";
+	            that.loadAllQuestions();
+	            
+    		} else {
+	    		alert("很抱歉，找不到题库！请和管理员联系");
+    		}
+    		that.isPreloadFinished = false;
+            
     });
+    
 }
 
 Controller.prototype.generateLevels = function() {
