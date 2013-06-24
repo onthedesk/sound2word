@@ -154,9 +154,10 @@ Controller.prototype.loadAllQuestions = function () {
 	            that.loadAllQuestions();
 	            
     		} else {
+    			that.isPreloadFinished = false;
 	    		alert("很抱歉，找不到题库！请和管理员联系");
     		}
-    		that.isPreloadFinished = false;
+    		
             
     });
     
@@ -229,11 +230,12 @@ Controller.prototype.loadCurrentQuestions = function () {
 Controller.prototype.setCurrentSongUrl = function() {
 	var url = "http://" + window.location.host + window.location.pathname;
 	url = url.substring(0, url.lastIndexOf('/') + 1);
-	var m4aUrl = url + controller.dataBaseUrl + "music/" + sprintf("__%05d.m4a", this.currentQuestionId);
-	var oggUrl = url + controller.dataBaseUrl + "music/" + sprintf("__%05d.ogg", this.currentQuestionId);
+	var m4aUrl = url + controller.dataBaseUrl + "music/" + 'm4a/' + sprintf("__%05d.m4a", this.currentQuestionId);
+	var oggUrl = url + controller.dataBaseUrl + "music/" + 'ogg/' + sprintf("__%05d.ogg", this.currentQuestionId);
+	console.log(oggUrl);
 	this.songPlayer.setMedia({
 		m4a: m4aUrl,
-		ogg: oggUrl
+		oga: oggUrl
 	});
 	
 	this.songPlayer.play();
