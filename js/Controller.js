@@ -233,7 +233,6 @@ Controller.prototype.setCurrentSongUrl = function() {
 	url = url.substring(0, url.lastIndexOf('/') + 1);
 	var m4aUrl = url + controller.dataBaseUrl + "music/" + 'm4a/' + sprintf("%s.m4a", this.currentQuestionId);
 	var oggUrl = url + controller.dataBaseUrl + "music/" + 'ogg/' + sprintf("%s.ogg", this.currentQuestionId);
-	console.log(oggUrl);
 	this.songPlayer.setMedia({
 		m4a: m4aUrl,
 		oga: oggUrl
@@ -278,7 +277,7 @@ Controller.prototype.handleAnswerCorrect = function() {
 }
 Controller.prototype.isAnswerCorrect = function () {
     var answerText = '';
-    $(sprintf("#question-%d .answer-key", this.currentQuestionId)).filter(function () {
+    $(sprintf("#question-%s .answer-key", this.currentQuestionId)).filter(function () {
         return $(this).attr("data-key") != "";
     }).each(function (index, elem) {
         answerText += elem.getAttribute("data-key");

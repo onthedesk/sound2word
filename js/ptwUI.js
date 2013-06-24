@@ -185,11 +185,13 @@ PtwUI.prototype.playCurrentSong = function() {
 PtwUI.prototype.setAnswerBoxPosition = function(currentQuestion) {
 	
    		var width = 0, answerBox = currentQuestion.find('.question-answer');
-   		answerBox.find('li').each(function(){
+   		if ( answerBox.size() > 0 ) {
+	   answerBox.find('li').each(function(){
    			width += parseInt($(this).outerWidth());
    		});
    		answerBox.css('width',(width+30) + 'px')
    		.css('margin-left', '-' + (width/2) + 'px');
+   		}
    
 }
 PtwUI.prototype.setRecordPosition = function() {
