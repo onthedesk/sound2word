@@ -195,9 +195,12 @@ PtwUI.prototype.setAnswerBoxPosition = function(currentQuestion) {
 PtwUI.prototype.setRecordPosition = function() {
 	var audio = $('#question-audio-container');
 	var question = $('.question:visible');
-	var pic = question.find('.question-pic');
-	var offsetLeft = parseFloat(pic.offset().left) - parseFloat(question.offset().left);
-	audio.css('left', offsetLeft);
+	if ( question.size() > 0 ) {
+		var pic = question.find('.question-pic');
+		var offsetLeft = parseFloat(pic.offset().left) - parseFloat(question.offset().left);
+		audio.css('left', offsetLeft);
+	}
+	
 }
 PtwUI.prototype.showLoadingUI= function(){
 	this.hideSuccessUI();

@@ -84,7 +84,7 @@ Controller.prototype.enableSingleQuestionMode = function () {
     this.readLevelsFromCookie = false;
     this.isAllowCookie = false;
     this.currentQuestionBatch = 1;
-    this.currentQuestionId = 1;
+    this.currentQuestionId = '__00000';
     this.currentQuestionIndex = 0;
     this.currentQuestionLevel = 1;
     this.questionRepoSize = 1;
@@ -191,6 +191,7 @@ Controller.prototype.loadSingleQuestion = function() {
 	 		this.currentQuestionId = this.singleQuestionId;
  	} else {
 	 		this.questionRepo.push( this.questions[0] );
+	 		this.currentQuestionId = this.questions[0]['ID'];
  	}
 }
 Controller.prototype.loadCurrentQuestions = function () {
@@ -230,8 +231,8 @@ Controller.prototype.loadCurrentQuestions = function () {
 Controller.prototype.setCurrentSongUrl = function() {
 	var url = "http://" + window.location.host + window.location.pathname;
 	url = url.substring(0, url.lastIndexOf('/') + 1);
-	var m4aUrl = url + controller.dataBaseUrl + "music/" + 'm4a/' + sprintf("__%05d.m4a", this.currentQuestionId);
-	var oggUrl = url + controller.dataBaseUrl + "music/" + 'ogg/' + sprintf("__%05d.ogg", this.currentQuestionId);
+	var m4aUrl = url + controller.dataBaseUrl + "music/" + 'm4a/' + sprintf("%s.m4a", this.currentQuestionId);
+	var oggUrl = url + controller.dataBaseUrl + "music/" + 'ogg/' + sprintf("%s.ogg", this.currentQuestionId);
 	console.log(oggUrl);
 	this.songPlayer.setMedia({
 		m4a: m4aUrl,

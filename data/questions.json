@@ -1,69 +1,1317 @@
 ﻿{
-"questions":[{
-  "answer": "ba8dbab047b73c92ba594255fb75c69a",
-  "category": "歌曲名",
-  "ID": "1",
-  "keyboard": "孙的中爱悟人情生放空命为国怒因",
+"questions" : [{
+  "answer": "3c6c33ab613b9d588ab544e9fd1b8f37",
+  "category": "歌名",
+  "keyboard": "服投降征讨黄",
+  "ID": "__00000",
+  "answer_char_count": 2
+}, {
+  "answer": "669a93e6a8b523d257ee7f0ec1f7989d",
+  "category": "歌名",
+  "keyboard": "年话神华童",
+  "ID": "__00001",
+  "answer_char_count": 2
+}, {
+  "answer": "445dc75c08e08a51bf324fab8a83f052",
+  "category": "歌名",
+  "keyboard": "道作味学那桌的你子业些样儿花本同",
+  "ID": "__00002",
   "answer_char_count": 4
-},{
-  "answer": "88db283c87a3a8d8af7103333bae9db1",
-  "category": "歌曲名",
-  "ID": "2",
-  "keyboard": "放生心国人命雄的空中怒孙英真悟",
+}, {
+  "answer": "b3d4cee4d5bb2ffa430dba312a89a8ca",
+  "category": "歌名",
+  "keyboard": "里衣草花八英香七薰",
+  "ID": "__00003",
+  "answer_char_count": 3
+}, {
+  "answer": "b32b524fd7ace1e0fda3ae5ba1501342",
+  "category": "歌名",
+  "keyboard": "话传神服染奇播征",
+  "ID": "__00004",
+  "answer_char_count": 2
+}, {
+  "answer": "011372613490aeec0e440e333c2441bc",
+  "category": "歌名",
+  "keyboard": "洋豚大花愁海能够浪哀",
+  "ID": "__00005",
+  "answer_char_count": 2
+}, {
+  "answer": "73160c27d1e9516a2b6f751133d07091",
+  "category": "歌名",
+  "keyboard": "然过幸然结后仍果爱来后福",
+  "ID": "__00006",
+  "answer_char_count": 2
+}, {
+  "answer": "87ecde8e4f5e05c3165c244de96eb0ab",
+  "category": "歌名",
+  "keyboard": "桌梦样包的子背你同未之来",
+  "ID": "__00007",
   "answer_char_count": 4
-},{
-  "answer": "940bf6c87c3f84bf00fded5ce0f35d16",
-  "category": "歌曲名",
-  "ID": "3",
-  "keyboard": "花台花浓花开秋瓷牡丹意青菊",
+}, {
+  "answer": "beb3eaa7c19284402563c0d7705d5c1e",
+  "category": "歌名",
+  "keyboard": "你痛仰再别来会人大她见快相笑他",
+  "ID": "__00008",
+  "answer_char_count": 2
+}, {
+  "answer": "db2204678a9fc9263bb0a1f9546132ab",
+  "category": "歌名",
+  "keyboard": "人题老候小问次情时男第一歌孩女大尔",
+  "ID": "__00009",
   "answer_char_count": 3
-},{
-  "answer": "89284e2ecf38ec5f72c19cb191b66785",
-  "category": "歌曲名",
-  "ID": "4",
-  "keyboard": "的空怒悟生命放莲花中孙蓝人国",
-  "answer_char_count": 3
-},{
-  "answer": "88db283c87a3a8d8af7103333bae9db1",
-  "category": "歌曲名",
-  "ID": "5",
-  "keyboard": "国英空雄命心悟中孙的放生人真怒",
+}, {
+  "answer": "806df0cc72cce1757a66f62bedef3d86",
+  "category": "歌名",
+  "keyboard": "寞之唤歌转龙人色唱逆灰三召寂国传说的",
+  "ID": "__00010",
   "answer_char_count": 4
-},{
-  "answer": "3c414413dc673de47142099f14551df8",
-  "category": "歌曲名",
-  "ID": "6",
-  "keyboard": "花浓瓷秋青意牡蜜开丹花甜蜜",
+}, {
+  "answer": "16696b98e6f48138fab7c3970cad226a",
+  "category": "歌手",
+  "keyboard": "刀客郎剑张雀王螂周螳慧杰麻朴大鱼树",
+  "ID": "__00011",
+  "answer_char_count": 2
+}, {
+  "answer": "e1369fc3af1a5ff203ee49c2b7298977",
+  "category": "歌手",
+  "keyboard": "花朝街乐黑无子品生豹后良印队孩日男绿孙唐儿舍",
+  "ID": "__00012",
+  "answer_char_count": 4
+}, {
+  "answer": "5c8eb0a8721cea1d053ea322710dd051",
+  "category": "歌名",
+  "keyboard": "OLYFDPXZUNKAARVWYBHMJBSBIGQCTE",
+  "ID": "__00013",
+  "answer_char_count": 4
+}, {
+  "answer": "5f23e924d2866ddd036d8541206c8e04",
+  "category": "歌手",
+  "keyboard": "敬咏琪轩泰叶梁轩斯惠威尔张艾美薇亚特萧夫特",
+  "ID": "__00014",
   "answer_char_count": 3
-},{
-  "answer": "b39b918d5c86bee0a09ed4ccb7eab473",
-  "category": "歌曲名",
-  "ID": "7",
-  "keyboard": "桦空人白林怒命放悟生的中国孙",
+}, {
+  "answer": "1b421a32c3e54d9dd441f1f5aa395bc8",
+  "category": "歌名",
+  "keyboard": "GUQRCDYZRIHLMNFJTKEXEFSARVPOIWOWKB",
+  "ID": "__00015",
+  "answer_char_count": 8
+}, {
+  "answer": "284511895e61a71c440faeab1498ae22",
+  "category": "歌手",
+  "keyboard": "束大星厦飞特鸟人国别帝光碟外叔行",
+  "ID": "__00016",
+  "answer_char_count": 2
+}, {
+  "answer": "0cefd1f020c06d938523493a5a86b64a",
+  "category": "歌名",
+  "keyboard": "法神冰由气自约女A顿H纽昨O冷立哈世L曼纪",
+  "ID": "__00017",
+  "answer_char_count": 4
+}, {
+  "answer": "1eb9828c5109ba40b68eb6f53054cf22",
+  "category": "歌手",
+  "keyboard": "功体卦中极小八士头国拳术道成龙脚披跆子太武",
+  "ID": "__00018",
   "answer_char_count": 3
-},{
-  "answer": "5c8dd7e2d4516df42f4c7981eb8c95ee",
-  "category": "歌曲名",
-  "ID": "8",
-  "keyboard": "果爱朝大实你中人有天盛的有我我国夏",
+}, {
+  "answer": "1937edf19cce5b2fd317d1f2c07a88ec",
+  "category": "歌名",
+  "keyboard": "H击防光人市建巨I恶G都攻H机空魔守歌丛筑飞高林",
+  "ID": "__00019",
   "answer_char_count": 5
-},{
-  "answer": "e5d0f534e6231042f4963be9eda54b6d",
-  "category": "歌曲名",
-  "ID": "9",
-  "keyboard": "之窗瓷外的花台风里青东破菊雪外千花",
-  "answer_char_count": 3
-},{
-  "answer": "c6e55e67fa8641e7623c049b5f36dc57",
-  "category": "歌曲名",
-  "ID": "10",
-  "keyboard": "天人我中国你有有走朝爱大我爱我别",
+}, {
+  "answer": "61c2fd6639fb1bc74accfb14bd93d06f",
+  "category": "歌手",
+  "keyboard": "眼豆斑豆武鹅白术黑国美马兴狗黑企胖中高",
+  "ID": "__00020",
   "answer_char_count": 4
-},{
+}, {
+  "answer": "70e5c291d24308a4f5e4a704e5604fbc",
+  "category": "歌名",
+  "keyboard": "林原G宝EMI护中险守I冒丛者座天AN之草大",
+  "ID": "__00021",
+  "answer_char_count": 7
+}, {
+  "answer": "3900c57911adf5db6a9b92fa4d8839fc",
+  "category": "歌手",
+  "keyboard": "晕山林圈法园公星来球量火外警瓶棍客光备能力肯",
+  "ID": "__00022",
+  "answer_char_count": 4
+}, {
+  "answer": "0cac197276b790a9a95b09a2dc2670ac",
+  "category": "歌名",
+  "keyboard": "时KG歌壳16捷山V麦牌王金0之保A菲克P3",
+  "ID": "__00023",
+  "answer_char_count": 4
+}, {
+  "answer": "08900b6bca2d5117055cc4264af80518",
+  "category": "歌手",
+  "keyboard": "森团鹿城颈河琳若长市斑冒险王之林王马戏",
+  "ID": "__00024",
+  "answer_char_count": 3
+}, {
+  "answer": "e7d83649975a79776f148708c54cba71",
+  "category": "歌手",
+  "keyboard": "主国F人恐R员汉罗动世儒I龙代王总时",
+  "ID": "__00025",
+  "answer_char_count": 3
+}, {
+  "answer": "d5fb60d0342b793f20f4d1bb48450863",
+  "category": "歌手",
+  "keyboard": "巨嘴危蛇鲸恶城兽底毒男魂海孩惊西鱼怪魔险",
+  "ID": "__00026",
+  "answer_char_count": 4
+}, {
+  "answer": "b4cdf90372780194bcfd43abac692a0b",
+  "category": "歌手",
+  "keyboard": "尼迪蒙R奥中金斯卡5O百米盾花代NM拉鸡牌梅A高派斯O时",
+  "ID": "__00027",
+  "answer_char_count": 7
+}, {
+  "answer": "b3bfdf32e6033cf4515debba6510a1a5",
+  "category": "歌手",
+  "keyboard": "L人喷D火斯偏伯顿啊E拉分E头年A",
+  "ID": "__00028",
+  "answer_char_count": 5
+}, {
+  "answer": "d8b463b9952c66114b9bc7df1be2c6fa",
+  "category": "歌名",
+  "keyboard": "行大N之园语王小T罗A公S期人故物其",
+  "ID": "__00029",
+  "answer_char_count": 4
+}, {
+  "answer": "59ea7704669a37406626a370a762569c",
+  "category": "歌手",
+  "keyboard": "月物血暗食满光N语事亮神话空LAEK故",
+  "ID": "__00030",
+  "answer_char_count": 5
+}, {
+  "answer": "c7ca02088024ea235acfb55dab87f27d",
+  "category": "歌手",
+  "keyboard": "巴脸园宝笑天人线冒野爸前爸轮冲大巴向宝笛花险",
+  "ID": "__00031",
+  "answer_char_count": 4
+}, {
+  "answer": "24aefb19f2e471093ca55605be4214fc",
+  "category": "歌手",
+  "keyboard": "超PA笼人色C箭Y登L盗先ODL妖蜂巨客级",
+  "ID": "__00032",
+  "answer_char_count": 8
+}, {
+  "answer": "cf0a394a685625c07c2d0263164213da",
+  "category": "歌手",
+  "keyboard": "U话王Q部E神汉天郎N第妙太罗大E队通",
+  "ID": "__00033",
+  "answer_char_count": 5
+}, {
+  "answer": "19415f8888765319b27e3ef5dbe3ae09",
+  "category": "歌手",
+  "keyboard": "暗魔影S人小光刀恶李的AS夜I人O传剑龙",
+  "ID": "__00034",
+  "answer_char_count": 5
+}, {
+  "answer": "7508b276454d41f4df3c924fd25fc5fa",
+  "category": "歌名",
+  "keyboard": "LLYRLHMDOKVGJEZWFQBIEOTXNYSCAUWP",
+  "ID": "__00035",
+  "answer_char_count": 6
+}, {
+  "answer": "ccd1c73026f1a110454897f9aeed403b",
+  "category": "歌名",
+  "keyboard": "光云起不当爱体术涌我夫剑刀武雾爱术林少神气功",
+  "ID": "__00036",
+  "answer_char_count": 4
+}, {
+  "answer": "6f1bd3287a99038cd0e82358c4bbbc89",
+  "category": "歌名",
+  "keyboard": "供战蛛光士爱峰养器环机青蜘超人神的",
+  "ID": "__00037",
+  "answer_char_count": 4
+}, {
   "answer": "0680607eceb2c5e89d9e0ee70bdca69c",
-  "category": "歌曲名",
-  "ID": "11",
-  "keyboard": "风里打外歌窗破千的雪主东菊花台之外的爱",
+  "category": "歌名",
+  "keyboard": "罗恩打歌的士国天法包公头爱绅英发主青",
+  "ID": "__00038",
   "answer_char_count": 5
+}, {
+  "answer": "458fe8cadd3f51f60baa49f8380e4074",
+  "category": "歌名",
+  "keyboard": "爱花罪恶迷瞭心转城桃移花酒杯粉情色迷情望失",
+  "ID": "__00039",
+  "answer_char_count": 4
+}, {
+  "answer": "755e6f6a724c71ce937521c9b7f7a137",
+  "category": "歌名",
+  "keyboard": "潮大狗水光霹雷雳娃如爱鸣人战",
+  "ID": "__00040",
+  "answer_char_count": 4
+}, {
+  "answer": "c6e55e67fa8641e7623c049b5f36dc57",
+  "category": "歌名",
+  "keyboard": "救营赛珠我级人亚神奇别龙走爱",
+  "ID": "__00041",
+  "answer_char_count": 4
+}, {
+  "answer": "f8efa97d7ef69ca35c46a994e257f924",
+  "category": "歌名",
+  "keyboard": "法戒怪魔光皮小肤睛眼眼质力睛笑巨色的物人爱",
+  "ID": "__00042",
+  "answer_char_count": 5
+}, {
+  "answer": "7aa5ba8c463a1a02378a87d61acd0b32",
+  "category": "歌名",
+  "keyboard": "荡北置爱厕庭所坦森林荡要市位色西鬼园东家城向",
+  "ID": "__00043",
+  "answer_char_count": 5
+}, {
+  "answer": "e08b554852c828f3f4be95db15833088",
+  "category": "歌名",
+  "keyboard": "福暧人行园气地等记长其特待斯旅救事史昧赎的公椅故",
+  "ID": "__00044",
+  "answer_char_count": 2
+}, {
+  "answer": "86d45328a955a126c89c065b746b37a2",
+  "category": "歌手",
+  "keyboard": "恐亮面沙怖电宝搞喜院具怒笑影脸",
+  "ID": "__00045",
+  "answer_char_count": 3
+}, {
+  "answer": "33b52e3fe8681946baf592a0fc367074",
+  "category": "歌名",
+  "keyboard": "工友厅妹房务邻落员厨服餐鸽女少家生孩白蛋馆打糕品",
+  "ID": "__00046",
+  "answer_char_count": 2
+}, {
+  "answer": "b39b918d5c86bee0a09ed4ccb7eab473",
+  "category": "歌名",
+  "keyboard": "途囧幸表桦人奇白阿林大代笨蛋股在侠盗葩的运啊屁",
+  "ID": "__00047",
+  "answer_char_count": 3
+}, {
+  "answer": "a825c5eef30a404500e5269d9408fbf7",
+  "category": "歌名",
+  "keyboard": "人懂精达灵狼的夜阿蓝天黑凡白提吸鬼人不巨血",
+  "ID": "__00048",
+  "answer_char_count": 7
+}, {
+  "answer": "2ebb68f9d1ec0a98a09667099a1a17c2",
+  "category": "歌名",
+  "keyboard": "神合霹瓜的贝之组敌宝奇无小雳手笨恶傻魔",
+  "ID": "__00049",
+  "answer_char_count": 2
+}, {
+  "answer": "de5089e7313e621302d0bc4f47a525c3",
+  "category": "歌名",
+  "keyboard": "家双道背重间敌国重重无狙子叛人击影飞",
+  "ID": "__00050",
+  "answer_char_count": 2
+}, {
+  "answer": "6569b4ee46727f97c34a7567254ec14e",
+  "category": "歌手",
+  "keyboard": "奇盗怪E侠人武本H四S术仙日国神士帝",
+  "ID": "__00051",
+  "answer_char_count": 3
+}, {
+  "answer": "44fedbf51abd4173354c3ab770b5c154",
+  "category": "歌名",
+  "keyboard": "子主国散不里民村盗上农人森大林帽阿子不见",
+  "ID": "__00052",
+  "answer_char_count": 4
+}, {
+  "answer": "301f4f48d0ef7d7b8787c405e7a9f7d0",
+  "category": "歌名",
+  "keyboard": "能锋的秘说不怒事故的争密维京冒险贼",
+  "ID": "__00053",
+  "answer_char_count": 6
+}, {
+  "answer": "f50e6f8d305f305ae1758b43fc7cbaf2",
+  "category": "歌名",
+  "keyboard": "贝长想王卡敦力伦大宝片魔眼不球大游能戏量",
+  "ID": "__00054",
+  "answer_char_count": 4
+}, {
+  "answer": "fafabc11e1759a8891bc0839367bc5d4",
+  "category": "歌名",
+  "keyboard": "甲神风龙机透形神斗暴金达刚猜变战士高不",
+  "ID": "__00055",
+  "answer_char_count": 3
+}, {
+  "answer": "fa3b3abbcebda7356ed51771a880519c",
+  "category": "游戏&动漫",
+  "keyboard": "级赖特莱斯丽来玛援二等里超士将助",
+  "ID": "__00056",
+  "answer_char_count": 4
+}, {
+  "answer": "ed7e7367903a6de0f6f5f19c51b82964",
+  "category": "歌名",
+  "keyboard": "火密斯朵客巨外界痴耳绿兽色魔来心人绝对星世的焰",
+  "ID": "__00057",
+  "answer_char_count": 4
+}, {
+  "answer": "94a8f4154fdd7ab3d36d9890c6087d70",
+  "category": "歌名",
+  "keyboard": "斗里航际垒迷争天霸堡春",
+  "ID": "__00058",
+  "answer_char_count": 3
+}, {
+  "answer": "f595e0d922102d03e85910a0e297d778",
+  "category": "歌名",
+  "keyboard": "方麻小爱海城小可园公当家贝爱街南绵芝鬼大",
+  "ID": "__00059",
+  "answer_char_count": 4
+}, {
+  "answer": "7260d84edff20c06031eff648180fcb3",
+  "category": "歌名",
+  "keyboard": "机在士人毁动是兰季小子幸冬员博约福传我战奇器总夫大功灭",
+  "ID": "__00060",
+  "answer_char_count": 5
+}, {
+  "answer": "91b77f459edd423365cde79374de963e",
+  "category": "歌名",
+  "keyboard": "次美邪毁雷第恶神情身义单争灭歌二正国战长队",
+  "ID": "__00061",
+  "answer_char_count": 4
+}, {
+  "answer": "b68e96c435bd2e188ed4bbe4b67f2fc0",
+  "category": "歌名",
+  "keyboard": "主的茜首总国戒公你说全电时传想闪茜之当相我警候统达",
+  "ID": "__00062",
+  "answer_char_count": 7
+}, {
+  "answer": "1114ae3b89ea4b71b7aa5ef39affc7c9",
+  "category": "歌名",
+  "keyboard": "狼到娥部月胸江满天红仙金等女丽兽色的发爱美不嫦大",
+  "ID": "__00063",
+  "answer_char_count": 5
+}, {
+  "answer": "ff9362ab0b332c50e75782eb2b5f0579",
+  "category": "歌名",
+  "keyboard": "魔次玛红米第恶才一白衣粒者艾米",
+  "ID": "__00064",
+  "answer_char_count": 3
+}, {
+  "answer": "82f793c071fb68d05d714ebb113f02e9",
+  "category": "歌名",
+  "keyboard": "人击忆独记机家情追器色无王敌",
+  "ID": "__00065",
+  "answer_char_count": 4
+}, {
+  "answer": "c8c5a7e9d1d7b03cf2201a5d84956cb1",
+  "category": "歌名",
+  "keyboard": "子歌的家摩背孩山术谷登臂庭戏欢角美独断",
+  "ID": "__00066",
+  "answer_char_count": 3
+}, {
+  "answer": "bdec604d379431346176f206f06d9210",
+  "category": "歌手",
+  "keyboard": "尼铁灵船幽琪没咏轮碰沉落掉梁大达撞",
+  "ID": "__00067",
+  "answer_char_count": 3
+}, {
+  "answer": "546a5d0764222976f699ca4c476fc3ff",
+  "category": "歌手",
+  "keyboard": "病伊波子毒别王罗达斯兰马巴斯张斯轩敬",
+  "ID": "__00068",
+  "answer_char_count": 3
+}, {
+  "answer": "2bb2d277e0cc43e39bd2432a32a24cea",
+  "category": "歌名",
+  "keyboard": "球大分走动总行旅冒险行的开员气老毯",
+  "ID": "__00069",
+  "answer_char_count": 4
+}, {
+  "answer": "7d9fb841dd7f4c76f9ce6bee32dc46ef",
+  "category": "歌名",
+  "keyboard": "朋干修动遇员杯奇友利尔拉根二总记",
+  "ID": "__00070",
+  "answer_char_count": 4
+}, {
+  "answer": "5d813a6678a6692dba76adc725e7dc03",
+  "category": "歌名",
+  "keyboard": "血者吸狼当史刚患独孤亚斯鬼伦密波艾特金利哈",
+  "ID": "__00071",
+  "answer_char_count": 4
+}, {
+  "answer": "8af66d08af22dea5400063919143f77a",
+  "category": "歌名",
+  "keyboard": "光争客争飞外战大船的阴故事来球霸",
+  "ID": "__00072",
+  "answer_char_count": 5
+}, {
+  "answer": "12b42c8491ffcf006f7553710133b681",
+  "category": "歌名",
+  "keyboard": "詹姆阔纳尔斯尔空海奥多木罗天慕神巴尼",
+  "ID": "__00073",
+  "answer_char_count": 4
+}, {
+  "answer": "1278bfb5731ab79c3063e39efc3ca4c6",
+  "category": "歌名",
+  "keyboard": "好巩瑞宝嘉心金刘山庸冯手赵分佩昆斯姜本乐陈",
+  "ID": "__00074",
+  "answer_char_count": 4
+}, {
+  "answer": "889427953b50bd4ecdb7c27fab60c71e",
+  "category": "歌名",
+  "keyboard": "嘉德陈袁朱何一隆必在起庚平",
+  "ID": "__00075",
+  "answer_char_count": 5
+}, {
+  "answer": "4a12a39a80e1c2bbd88778b2c385cddc",
+  "category": "歌名",
+  "keyboard": "荷色斯塘别西丘陈佩法尔吉卓林月",
+  "ID": "__00076",
+  "answer_char_count": 4
+}, {
+  "answer": "689b9f7f2339b9cac6eababec87c01e4",
+  "category": "歌名",
+  "keyboard": "季瑞峰白张黑配宝刘",
+  "ID": "__00077",
+  "answer_char_count": 3
+}, {
+  "answer": "599eb0ba9e96fca03f5e1d93870a5dfb",
+  "category": "游戏&动漫",
+  "keyboard": "猫巴特拉喀长基拉顿思黑法警克阿布",
+  "ID": "__00078",
+  "answer_char_count": 4
+}, {
+  "answer": "9bff653f947269eb39ae79df5281442d",
+  "category": "歌名",
+  "keyboard": "艾猪维狗色默黑幽女人斯",
+  "ID": "__00079",
+  "answer_char_count": 4
+}, {
+  "answer": "3e4dd61df61136204a4b27c875bf78b4",
+  "category": "歌手",
+  "keyboard": "茂若时鲁春朱陈智深徐小瑄",
+  "ID": "__00080",
+  "answer_char_count": 3
+}, {
+  "answer": "7c80c514806f4d3af5a19c7581f15d21",
+  "category": "歌名",
+  "keyboard": "鲁青春治克尼斯诗比乔期科后布的",
+  "ID": "__00081",
+  "answer_char_count": 6
+}, {
+  "answer": "f5315f01dc10173b979b7dfc9fcf9e57",
+  "category": "歌名",
+  "keyboard": "之奥乔大尔尼肥小然迪忽巴比蒂胖间",
+  "ID": "__00082",
+  "answer_char_count": 4
+}, {
+  "answer": "2fd773302279e22dd80b9672bc96eb20",
+  "category": "游戏&动漫",
+  "keyboard": "葫奇刘兰多尔科马兄弟斯奥易奇芦",
+  "ID": "__00083",
+  "answer_char_count": 4
+}, {
+  "answer": "e29e73ecfef41029bb6e1e2650c4c249",
+  "category": "歌名",
+  "keyboard": "死泉门鲁治蝶齐拉老爷蝴奥边不",
+  "ID": "__00084",
+  "answer_char_count": 4
+}, {
+  "answer": "f66ebe80e84cd67a2684607a3e7ed2a8",
+  "category": "歌名",
+  "keyboard": "楠飞孙扬嫁亦王娜花哥衣林阳明姚国梁李丹人的杨龙菲",
+  "ID": "__00085",
+  "answer_char_count": 4
+}, {
+  "answer": "f9c77a8425fed2246058e6d32e2e7949",
+  "category": "歌手",
+  "keyboard": "肖顿芬梨啤迪牛扎尔莫贝张靓多邦生爱颖萧特",
+  "ID": "__00086",
+  "answer_char_count": 3
+}, {
+  "answer": "ac5b1e0e62ac22ebe4156351e28d6ea4",
+  "category": "歌名",
+  "keyboard": "大蒂易李巴哥建雨尔致朱星晨王芳联姑娘灰特",
+  "ID": "__00087",
+  "answer_char_count": 3
+}, {
+  "answer": "a986b56d38f1f8cb87640dec96102b69",
+  "category": "歌名",
+  "keyboard": "间战中云敖空灰孙马山九扁老色明心阿师连博英",
+  "ID": "__00088",
+  "answer_char_count": 4
+}, {
+  "answer": "c12ac35165b27a6daf9da4e46c53caba",
+  "category": "游戏&动漫",
+  "keyboard": "奥罗内马尼加里魂姚乔科特华丹布斗霍尔佑德明天比",
+  "ID": "__00089",
+  "answer_char_count": 3
+}, {
+  "answer": "b267a6801d1e231e4553823f0c679cce",
+  "category": "游戏&动漫",
+  "keyboard": "尔猫奇机斯卡罗萨达姆姆斯器",
+  "ID": "__00090",
+  "answer_char_count": 3
+}, {
+  "answer": "92c253ecba4211975240b6005ca4a0ea",
+  "category": "歌名",
+  "keyboard": "什季子罗丁斯的尼迪马寂福乔节布寞丹",
+  "ID": "__00091",
+  "answer_char_count": 5
+}, {
+  "answer": "08ac18844803ba8857a1c5d008bf2f82",
+  "category": "歌名",
+  "keyboard": "冷寞日鸟车顺寂胡太叔李成三洲明志正博沙贤",
+  "ID": "__00092",
+  "answer_char_count": 5
+}, {
+  "answer": "545577b393bfe1a9750eff677a0566b8",
+  "category": "歌名",
+  "keyboard": "唱周席英主来寞岸恩员委阿大寂斯歌敏林在",
+  "ID": "__00093",
+  "answer_char_count": 5
+}, {
+  "answer": "14ba61110f478d6a592b3a7a68945f65",
+  "category": "歌名",
+  "keyboard": "居范旅加仲李州清白门疾鲁淹辛弃馆易牧照",
+  "ID": "__00094",
+  "answer_char_count": 4
+}, {
+  "answer": "bb1aa0c217b7f849e01df113fc9e920c",
+  "category": "歌名",
+  "keyboard": "简瑾林成韩寒大钊启秋超大穆李旦爱中梁单斯孙舍山老思",
+  "ID": "__00095",
+  "answer_char_count": 3
+}, {
+  "answer": "23b5a8e04ceaee219fe41e321ef95132",
+  "category": "歌手",
+  "keyboard": "德奥妹达尔蓬张什韦基柯詹斯霍皮姆丹德纳华惠乔尔尼",
+  "ID": "__00096",
+  "answer_char_count": 3
+}, {
+  "answer": "bc60fad9f680b90905882c6bfb47c81c",
+  "category": "歌名",
+  "keyboard": "则弗乔斯今气生徐纽生丹森缘约艾休",
+  "ID": "__00097",
+  "answer_char_count": 3
+}, {
+  "answer": "b07a78d97fa1477a3eeb6acd45dbc955",
+  "category": "歌名",
+  "keyboard": "天李孙森少嫁我楠霞给扬今光马司周要林青你将赵",
+  "ID": "__00098",
+  "answer_char_count": 7
+}, {
+  "answer": "a15cd639072e4f46442b11e2025b1708",
+  "category": "歌手",
+  "keyboard": "儿花张宇乐巴队芷畅春若笔李",
+  "ID": "__00099",
+  "answer_char_count": 4
+}, {
+  "answer": "6e4039cf2e8d3334110a3bada67c0729",
+  "category": "歌名",
+  "keyboard": "你皆心少赖就是林爱本达空主情嘛悟寺喇",
+  "ID": "__00100",
+  "answer_char_count": 4
+}, {
+  "answer": "940bf6c87c3f84bf00fded5ce0f35d16",
+  "category": "歌名",
+  "keyboard": "斯达巴内奇台冈蒂达顿芬菊花人",
+  "ID": "__00101",
+  "answer_char_count": 3
+}, {
+  "answer": "b8b184bc94941092560aae3fc3c8c8af",
+  "category": "歌手",
+  "keyboard": "女贩你常少物冰五月主天莫人礼谈播礼非属访",
+  "ID": "__00102",
+  "answer_char_count": 3
+}, {
+  "answer": "2e09b0d9e204fd40f9e26211ab5f4331",
+  "category": "游戏&动漫",
+  "keyboard": "操盖马遢司杨曹张家诸晁过邋葛将王大",
+  "ID": "__00103",
+  "answer_char_count": 4
+}, {
+  "answer": "489eb1c92f4d3ed6b4aee0d52602c7b0",
+  "category": "游戏&动漫",
+  "keyboard": "坦罗迪生景庚润陈因爱蓝灵斯华精",
+  "ID": "__00104",
+  "answer_char_count": 3
+}, {
+  "answer": "89284e2ecf38ec5f72c19cb191b66785",
+  "category": "歌名",
+  "keyboard": "MVGR莲FWCJYUA蓝QNOBSD花KZTHPLXIE",
+  "ID": "__00105",
+  "answer_char_count": 3
+}, {
+  "answer": "b87fa77a36827df5b74c1b291bcf454f",
+  "category": "歌名",
+  "keyboard": "VMQHJCW情YXKR类EBTAI爱LG似OZDPNFUS",
+  "ID": "__00106",
+  "answer_char_count": 4
+}, {
+  "answer": "3fe2bd1a9f6903bd935af18e76d6d7ab",
+  "category": "歌名",
+  "keyboard": "众大你利通迷克马一普宝吉汽联合底用到酷别冷",
+  "ID": "__00107",
+  "answer_char_count": 4
+}, {
+  "answer": "1c5089aa22fed7ab86f03bc1f3954f5b",
+  "category": "歌手",
+  "keyboard": "越谱自周卓书讯麻果谷琰歌达脸超苹子马",
+  "ID": "__00108",
+  "answer_char_count": 3
+}, {
+  "answer": "9c6d52c7536a6fab5e178260a0d05686",
+  "category": "歌名",
+  "keyboard": "ZO的YTKBPVJQUNSI义行MXLCRD旅WFHEG意A",
+  "ID": "__00109",
+  "answer_char_count": 5
+}, {
+  "answer": "09b66b89d32f7c67ca0f7b2815cc8957",
+  "category": "歌名",
+  "keyboard": "那谷应虎没安士歌雅全卫简必单么",
+  "ID": "__00110",
+  "answer_char_count": 5
+}, {
+  "answer": "f4918651e4142bd4a7e05f839ae0ade8",
+  "category": "歌名",
+  "keyboard": "美油人美英笨寿孚日安女丽平人本",
+  "ID": "__00111",
+  "answer_char_count": 5
+}, {
+  "answer": "839e047c8fe6b6ed7b84634c9291a485",
+  "category": "歌名",
+  "keyboard": "绿色牌明化美本后安海过壳平天日",
+  "ID": "__00112",
+  "answer_char_count": 4
+}, {
+  "answer": "bf73db7794a57d39fdbb912266a845bf",
+  "category": "歌名",
+  "keyboard": "皮八米比鸡一范斯哥高书梅金克亚情伦模",
+  "ID": "__00113",
+  "answer_char_count": 4
+}, {
+  "answer": "fdd7dd99b09902596475ba0dbe82d3c0",
+  "category": "歌名",
+  "keyboard": "人克斯林子王奥狮工厂生梦齐尼陌客迪",
+  "ID": "__00114",
+  "answer_char_count": 3
+}, {
+  "answer": "1a6e96eaea53827ac5002f03500b0a4b",
+  "category": "歌名",
+  "keyboard": "狐搜丹视虎土江频六放牡异奇豆播",
+  "ID": "__00115",
+  "answer_char_count": 3
+}, {
+  "answer": "f8dfa83ccdd9ce3fa0d96906e39c8d2d",
+  "category": "歌名",
+  "keyboard": "BUMK海OXY年IWH天JQRD那S宁AE夏静L的FTPCGNZV",
+  "ID": "__00116",
+  "answer_char_count": 8
+}, {
+  "answer": "4d0996a318ccb5e25256b74d12a69619",
+  "category": "歌名",
+  "keyboard": "到谁底台爱百赢鸡金中宝在你塑花身国感动好",
+  "ID": "__00117",
+  "answer_char_count": 5
+}, {
+  "answer": "be27d0c7ee2f2f57aa277f7f0dced071",
+  "category": "歌名",
+  "keyboard": "ITJHX你L子DRGBWYKPFC样OAU的NSQVZEM",
+  "ID": "__00118",
+  "answer_char_count": 4
+}, {
+  "answer": "e64173758ea2b41b0f4d5817e8f54144",
+  "category": "歌名",
+  "keyboard": "群洲康斯维师最辛兰傅地利贵珍你克",
+  "ID": "__00119",
+  "answer_char_count": 4
+}, {
+  "answer": "37f1c0aef92cf6488cc5177c7d98ee66",
+  "category": "歌名",
+  "keyboard": "碧冰绿利华水达年三北一似乐喜茶七年洋统雪得美",
+  "ID": "__00120",
+  "answer_char_count": 4
+}, {
+  "answer": "8101f9927f975498dd3f8470d75abc4e",
+  "category": "歌名",
+  "keyboard": "怒放用象生英美霸器通的超白命",
+  "ID": "__00121",
+  "answer_char_count": 5
+}, {
+  "answer": "2e1562bead7789be63a1e5bbf9ad4d05",
+  "category": "歌名",
+  "keyboard": "拉超欧王破爆产若松金霸",
+  "ID": "__00122",
+  "answer_char_count": 3
+}, {
+  "answer": "f8b96ab2452931fdadf1300b0f986ea2",
+  "category": "歌名",
+  "keyboard": "结的界昂星拉你奥德巴易终到克威路登利福塞陪世",
+  "ID": "__00123",
+  "answer_char_count": 8
+}, {
+  "answer": "116694c4af008a628535b84d5afcef5e",
+  "category": "歌名",
+  "keyboard": "碧虎科青雪罗花岛我娜日陪拉出老看",
+  "ID": "__00124",
+  "answer_char_count": 5
+}, {
+  "answer": "ccf89c6509c9d031dc527e54830f601a",
+  "category": "歌手",
+  "keyboard": "丹华尔龙暴里维斯周卡三十健皮",
+  "ID": "__00125",
+  "answer_char_count": 3
+}, {
+  "answer": "6f0b483914ceabbb91b0a512b89ef621",
+  "category": "歌名",
+  "keyboard": "且吟杰真克听尔奇优琼库哈衣风",
+  "ID": "__00126",
+  "answer_char_count": 4
+}, {
+  "answer": "e5d0f534e6231042f4963be9eda54b6d",
+  "category": "歌名",
+  "keyboard": "可傅红乐康克花一茶青事比师喜统双冰瓷红",
+  "ID": "__00127",
+  "answer_char_count": 3
+}, {
+  "answer": "9be97b9fb1d4c6829d72390085acfed3",
+  "category": "歌名",
+  "keyboard": "尔萨明易小衣洗丑德赛机天路通白清鸭雨鹅小上",
+  "ID": "__00128",
+  "answer_char_count": 4
+}, {
+  "answer": "c6f8680f03ede1b6fabf797f369e21b8",
+  "category": "歌名",
+  "keyboard": "士索下情康南尼泰非已得莱卡松富",
+  "ID": "__00129",
+  "answer_char_count": 4
+}, {
+  "answer": "07fc6ceb5641d462f48cc3e48fad92aa",
+  "category": "歌手",
+  "keyboard": "七杰岛花绿色酒喜伦啤周雪青",
+  "ID": "__00130",
+  "answer_char_count": 3
+}, {
+  "answer": "cd6e159b3b288755a984b90bce20f847",
+  "category": "歌名",
+  "keyboard": "韩八和极光乐可常非日倾国城卦谐太",
+  "ID": "__00131",
+  "answer_char_count": 4
+}, {
+  "answer": "1ed1d6056ea8a468fa6fc59a997720fa",
+  "category": "歌名",
+  "keyboard": "吉爸大多李气王没有如罐宝你娘女红加人湿娘儿小果",
+  "ID": "__00132",
+  "answer_char_count": 5
+}, {
+  "answer": "9c2c818f59cbcb5a6786c40d154ed459",
+  "category": "歌名",
+  "keyboard": "比影赛如克别情迪果德幻中爱这就是梅华亚勒",
+  "ID": "__00133",
+  "answer_char_count": 7
+}, {
+  "answer": "dcb8ca0a64ec9654824f9127ae5e4124",
+  "category": "歌名",
+  "keyboard": "三德腾恋骋梅斯飞赛国空大聘速",
+  "ID": "__00134",
+  "answer_char_count": 3
+}, {
+  "answer": "2b1a6cdfa0fe598674106738ef23699d",
+  "category": "歌名",
+  "keyboard": "少年家事李罗温根宝斯肯福里故强",
+  "ID": "__00135",
+  "answer_char_count": 4
+}, {
+  "answer": "19bb88826e095f6c2f5f501b7c4c90f7",
+  "category": "歌名",
+  "keyboard": "姆拉拿骑多白尔瑟马巴格兹尼澳克兰亚身泰伍",
+  "ID": "__00136",
+  "answer_char_count": 4
+}, {
+  "answer": "e43a972bc83c9b6fe3898a3aabdfb7e3",
+  "category": "游戏&动漫",
+  "keyboard": "叶斗星尔矢屁中士大钦猴利股戈老哥圣",
+  "ID": "__00137",
+  "answer_char_count": 5
+}, {
+  "answer": "5c8dd7e2d4516df42f4c7981eb8c95ee",
+  "category": "歌名",
+  "keyboard": "大建实昌超王刚国孙果超的低夏世里高盛",
+  "ID": "__00138",
+  "answer_char_count": 5
+}, {
+  "answer": "942a4290ddc9f6c61c6a6bdc70324ebc",
+  "category": "歌名",
+  "keyboard": "老李文大石秋座蒋雨迅余介舍雯瞿钊白狮鲁子",
+  "ID": "__00139",
+  "answer_char_count": 3
+}, {
+  "answer": "0f6a05eead48f439720750feed25b4da",
+  "category": "歌手",
+  "keyboard": "多克戈巴天王迅格菲克斯乔陈伯扎奕布世特",
+  "ID": "__00140",
+  "answer_char_count": 3
+}, {
+  "answer": "0f9f6ecf88a5e2a2961358ede490dfd1",
+  "category": "歌名",
+  "keyboard": "谢天赵南策中时光王李机孙",
+  "ID": "__00141",
+  "answer_char_count": 3
+}, {
+  "answer": "88e193f0920161eb0be6077aac047488",
+  "category": "歌名",
+  "keyboard": "祖督真弥迦老光尼阿末基世穆界陀佛释圣主头日",
+  "ID": "__00142",
+  "answer_char_count": 4
+}, {
+  "answer": "e26af3e8e875499da865ae94e2161572",
+  "category": "歌名",
+  "keyboard": "司扇马阳似翁姜帽水年瑾子子牙流子耶欧律",
+  "ID": "__00143",
+  "answer_char_count": 4
+}, {
+  "answer": "d7b6d5a0b7b8bb41758b2c706ee61991",
+  "category": "歌手",
+  "keyboard": "化椅疾巴伦方乱哈司迁通智残轮马郑马云蔡亮尔",
+  "ID": "__00144",
+  "answer_char_count": 3
+}, {
+  "answer": "612186fed1eda75ba6ac3b772670d964",
+  "category": "歌手",
+  "keyboard": "崔尔朗舒基蔡莱茵穆兰米河耐依纽林罗尼斯开",
+  "ID": "__00145",
+  "answer_char_count": 3
+}, {
+  "answer": "25567e3146fd56a397f1fe228de79ade",
+  "category": "歌名",
+  "keyboard": "斯奇里艾念思姆一尔是纳病居夫米种摩人耐基",
+  "ID": "__00146",
+  "answer_char_count": 6
+}, {
+  "answer": "e67c97a7976cace1e112dc475f197098",
+  "category": "歌名",
+  "keyboard": "定深鲁操逵咬丰峰很李爱你一智曹程岳江他宋金三",
+  "ID": "__00147",
+  "answer_char_count": 6
+}, {
+  "answer": "e5740a372ac8cd95b35aea7bd9349b92",
+  "category": "歌名",
+  "keyboard": "演卿张听唱的于刀会江公大松汉宋飞我她武李来",
+  "ID": "__00148",
+  "answer_char_count": 8
+}, {
+  "answer": "ca04c5ec655c88a800fa8ff4013872a9",
+  "category": "歌名",
+  "keyboard": "色狗湖艳黄委江小光太狸跳火丽屈",
+  "ID": "__00149",
+  "answer_char_count": 3
+}, {
+  "answer": "7d212c2e7d17a30e451ba4f41a2db67a",
+  "category": "歌手",
+  "keyboard": "册章墨贞绿形片宣像绮陈纸色",
+  "ID": "__00150",
+  "answer_char_count": 3
+}, {
+  "answer": "32131d11f7b19059fef471e4ef212b27",
+  "category": "歌名",
+  "keyboard": "划合间两同全忐平二计空个三只种忑",
+  "ID": "__00151",
+  "answer_char_count": 2
+}, {
+  "answer": "82b4194127a49b0728f069a19939c63d",
+  "category": "歌手",
+  "keyboard": "雀软硕达微鹊伟基尔戴华腾巢格尔宏",
+  "ID": "__00152",
+  "answer_char_count": 3
+}, {
+  "answer": "3c414413dc673de47142099f14551df8",
+  "category": "歌名",
+  "keyboard": "甜国蜜中常蜜啤非料奥红火饮爱心开运酒",
+  "ID": "__00153",
+  "answer_char_count": 3
+}, {
+  "answer": "457b03f60250816290455d088eff7d83",
+  "category": "歌名",
+  "keyboard": "萨家文巴拜大德然格仁尤辅想基好你尔贝突图斯莱",
+  "ID": "__00154",
+  "answer_char_count": 5
+}, {
+  "answer": "7f21a45b3d0b72bcbdd28f22d2381106",
+  "category": "歌名",
+  "keyboard": "面奥亚外乔图门托斯克尔萨米世文拉兰维多界尤瓦利的",
+  "ID": "__00155",
+  "answer_char_count": 5
+}, {
+  "answer": "cdfe5b57b8ee8e6560c1a0d8f0b742ce",
+  "category": "歌名",
+  "keyboard": "U月JTWNBAVL的亮XDOQPHGYEMSKZFC弯弯RI",
+  "ID": "__00156",
+  "answer_char_count": 5
+}, {
+  "answer": "59213387f0bda86921b5ca4608da39b4",
+  "category": "歌手",
+  "keyboard": "黄方迪萧香腾儿复冲冒陆素奥感剂敬连奈",
+  "ID": "__00157",
+  "answer_char_count": 3
+}, {
+  "answer": "d1898bdedb9538a6e2ece140fd474d15",
+  "category": "歌名",
+  "keyboard": "百狂爱痴克大比一峰万可统雪为淘蛙",
+  "ID": "__00158",
+  "answer_char_count": 4
+}, {
+  "answer": "39e02ade70aa20cdc725331f7aa6f5a7",
+  "category": "歌名",
+  "keyboard": "原全花利吻便店思家德席别兰梦好马",
+  "ID": "__00159",
+  "answer_char_count": 2
+}, {
+  "answer": "2081ebdf023c7e58f969f5354ab46a83",
+  "category": "歌名",
+  "keyboard": "妹萨系哈乔达兰斯爱马根球台我",
+  "ID": "__00160",
+  "answer_char_count": 4
+}, {
+  "answer": "e905d5a00e1481558ae697891945d539",
+  "category": "歌名",
+  "keyboard": "信我你索爱不个立手天愿飞鹅摩让达机通托人蓝尼多电一普",
+  "ID": "__00161",
+  "answer_char_count": 8
+}, {
+  "answer": "3852872cbb23505c18336e1507660008",
+  "category": "歌名",
+  "keyboard": "一多年我芬的美达声达鲜歌统里",
+  "ID": "__00162",
+  "answer_char_count": 5
+}, {
+  "answer": "e66cf2d9f053722e8f73c4f2c771152f",
+  "category": "歌名",
+  "keyboard": "事蒙风乐可我克旗公麦军心可口的百",
+  "ID": "__00163",
+  "answer_char_count": 5
+}, {
+  "answer": "d6c556ca1a7a581b23aa4bb90cba1c66",
+  "category": "歌名",
+  "keyboard": "怀拼集我图事念积收产木接的",
+  "ID": "__00164",
+  "answer_char_count": 4
+}, {
+  "answer": "b0094cc13df603da5e21ceac7922c2c0",
+  "category": "歌名",
+  "keyboard": "我月滴霸亮可飘蓝你柔以花吗抱王保露利",
+  "ID": "__00165",
+  "answer_char_count": 6
+}, {
+  "answer": "fa95c3e25110c3f3623b15feaf74e98d",
+  "category": "歌名",
+  "keyboard": "碧心客没宝必奥我浪护种那胜命洁妙",
+  "ID": "__00166",
+  "answer_char_count": 5
+}, {
+  "answer": "c9c4577deaedb9ccc6a4cebaa875f649",
+  "category": "歌名",
+  "keyboard": "草湾红平我酒们屋的歌啤牛色",
+  "ID": "__00167",
+  "answer_char_count": 4
+}, {
+  "answer": "5e10446e9567f3148a3de0f8e1a12ddb",
+  "category": "歌名",
+  "keyboard": "RCPQM我V子Y好F们E都WKASOJTXND是LZ孩HBUIG",
+  "ID": "__00168",
+  "answer_char_count": 7
+}, {
+  "answer": "23bc047b61b870905b3e00bcf15662b5",
+  "category": "歌名",
+  "keyboard": "OA在起RGXVFHC我IZM一我ESDWPNBU们QT要KJLY",
+  "ID": "__00169",
+  "answer_char_count": 7
+}, {
+  "answer": "195930486057b969dd7141d107abc114",
+  "category": "歌名",
+  "keyboard": "RUOVI想KXLTFN很YP我HW也DC他ZSQBEGJAM",
+  "ID": "__00170",
+  "answer_char_count": 5
+}, {
+  "answer": "dd7e03474702c9a50503a9cd14634b20",
+  "category": "歌名",
+  "keyboard": "尼真了型我中英尔片特索受的芯伤",
+  "ID": "__00171",
+  "answer_char_count": 6
+}, {
+  "answer": "44804022ddbfe4e4a37bb426830648d7",
+  "category": "歌名",
+  "keyboard": "G爱NFABCPWIVTOXHDYSQ我LK亲JMRZ的EU最",
+  "ID": "__00172",
+  "answer_char_count": 5
+}, {
+  "answer": "ddfa3f6109442d863a561ba81e66b78a",
+  "category": "歌名",
+  "keyboard": "大无器容次范地量顶峰鼓自",
+  "ID": "__00173",
+  "answer_char_count": 4
+}, {
+  "answer": "25d7e7607ef2afc37678ff615dd6846e",
+  "category": "歌名",
+  "keyboard": "天飞机姐谓兰法荷无少英美美上所",
+  "ID": "__00174",
+  "answer_char_count": 3
+}, {
+  "answer": "509393077b55615077694f965d487371",
+  "category": "歌名",
+  "keyboard": "福丽澳舒与顿猛家服无柯乐伦佳美比的",
+  "ID": "__00175",
+  "answer_char_count": 7
+}, {
+  "answer": "e63965095c4596a6026c1822438c21cd",
+  "category": "歌名",
+  "keyboard": "卫金刷卡斯毒安基山诺星霸士顿巴瑞全洗刷",
+  "ID": "__00176",
+  "answer_char_count": 3
+}, {
+  "answer": "f9ce434397c579aad043c4651a9d291b",
+  "category": "游戏&动漫",
+  "keyboard": "杜羊胶益狼喜灰与太达黄羊斯蕾",
+  "ID": "__00177",
+  "answer_char_count": 7
+}, {
+  "answer": "c2060bb0137d6905d5badadf01b0d7f8",
+  "category": "歌名",
+  "keyboard": "一雕齐牌站碧立妙下奥全天后白浪",
+  "ID": "__00178",
+  "answer_char_count": 5
+}, {
+  "answer": "ce5d6e533410a98a8cb2e43880162c17",
+  "category": "歌名",
+  "keyboard": "见克拉驰萨奔利法莎斯雷赛想劳莱拉德你莱蒂玛斯梅特福勒斯克斯",
+  "ID": "__00179",
+  "answer_char_count": 3
+}, {
+  "answer": "50753c98424bcabc1f83416108db77bd",
+  "category": "歌名",
+  "keyboard": "你马迈法时特保斯捷哈夜拉自达想赫的雅利拉巴",
+  "ID": "__00180",
+  "answer_char_count": 4
+}, {
+  "answer": "48bcdb2248afa9f1989bb82ef1f7b53d",
+  "category": "歌名",
+  "keyboard": "YGVC故城NOHZ事PFTXSUJQBAKED小RWMIL",
+  "ID": "__00181",
+  "answer_char_count": 4
+}, {
+  "answer": "00d79a1f25e97c30dc6d4c002d26d86b",
+  "category": "游戏&动漫",
+  "keyboard": "柔飘适带路尔宝小龙露人帮",
+  "ID": "__00182",
+  "answer_char_count": 3
+}, {
+  "answer": "f5e008d03453188b7c4144083f5b9274",
+  "category": "歌名",
+  "keyboard": "情三歌小元味合橙头鹿汁美泉",
+  "ID": "__00183",
+  "answer_char_count": 3
+}, {
+  "answer": "4e405c1ac743e1cf6c33ea302189f015",
+  "category": "歌名",
+  "keyboard": "亚鸟兰荷机小方山东娘川南四天镇飞鹅姑泰",
+  "ID": "__00184",
+  "answer_char_count": 4
+}, {
+  "answer": "54d35719fabf99c8cf691242440695a7",
+  "category": "歌名",
+  "keyboard": "围南方空美音达西软飞心太机沃国京客波",
+  "ID": "__00185",
+  "answer_char_count": 3
+}, {
+  "answer": "e0ea2287b4df0962a9d220aa928538d3",
+  "category": "歌名",
+  "keyboard": "国了大俄飞斯全新韩不机情罗法",
+  "ID": "__00186",
+  "answer_char_count": 4
+}, {
+  "answer": "a8fda94bf828d894f2f7f137e9af7b35",
+  "category": "歌名",
+  "keyboard": "上路机飞联斯新新罗英滚苏长摇的征俄",
+  "ID": "__00187",
+  "answer_char_count": 8
+}, {
+  "answer": "34efc93e6f4c7092b9d88b0385ab5dad",
+  "category": "歌名",
+  "keyboard": "斯里宾星鲁灯麦西考卡点星尔结儿",
+  "ID": "__00188",
+  "answer_char_count": 4
+}, {
+  "answer": "7f01d1c51f609d5eb72a1272f0afb41a",
+  "category": "歌名",
+  "keyboard": "来俄大亚利愿星香心日飞斯全西罗兰泰空马法语机意西港西",
+  "ID": "__00189",
+  "answer_char_count": 4
+}, {
+  "answer": "e16edcec02c694f0d1c8e3e533174752",
+  "category": "歌名",
+  "keyboard": "西中格苏南国木尔新心爱机兴旋飞西",
+  "ID": "__00190",
+  "answer_char_count": 2
+}, {
+  "answer": "fda735d48abf8f779b18a0c75fd1d001",
+  "category": "歌名",
+  "keyboard": "俄拿蝶宙兰法角宇西罗斯燕大全尾日三洲加空",
+  "ID": "__00191",
+  "answer_char_count": 3
+}, {
+  "answer": "4be44cb83078eca4b9270b4c6aed659a",
+  "category": "歌名",
+  "keyboard": "百莲格瑞天兰也玫瑰西春荷花野合东有",
+  "ID": "__00192",
+  "answer_char_count": 7
+}, {
+  "answer": "16ac6c7b7436ed549128eb66ea50f3be",
+  "category": "歌名",
+  "keyboard": "一联辈加泰孤美单马坡子中新的",
+  "ID": "__00193",
+  "answer_char_count": 6
+}, {
+  "answer": "af76a9b4eeb23f7f6d8a5c7a09803b12",
+  "category": "歌名",
+  "keyboard": "日山江起海西走河过东陕北的一子",
+  "ID": "__00194",
+  "answer_char_count": 7
+}, {
+  "answer": "81f6d5c23ee95382dd684e238a302cac",
+  "category": "歌名",
+  "keyboard": "湖一生南你河北东有州海西京",
+  "ID": "__00195",
+  "answer_char_count": 4
+}, {
+  "answer": "1b3e06756f31cf830edd845e95494608",
+  "category": "游戏&动漫",
+  "keyboard": "湖西一休南明杭河聪东北州徐海的",
+  "ID": "__00196",
+  "answer_char_count": 5
+}, {
+  "answer": "5b9b875beeedbc4eeb418c2c5bc155b9",
+  "category": "歌名",
+  "keyboard": "万星眼河空宙一银台电太涡宇年漩阳系",
+  "ID": "__00197",
+  "answer_char_count": 4
+}, {
+  "answer": "efe4e19407251fe4164625b85e538a4f",
+  "category": "歌名",
+  "keyboard": "兰索坡静墨里本西一直朝马很北菲鲜安宾新尔加律",
+  "ID": "__00198",
+  "answer_char_count": 5
+}, {
+  "answer": "ba8dbab047b73c92ba594255fb75c69a",
+  "category": "歌名",
+  "keyboard": "士凯爱新西尔情苏大坡特因尔格陵威为加英拿加",
+  "ID": "__00199",
+  "answer_char_count": 4
+}, {
+  "answer": "b13f7a26cb2291bbc767dfd7b61f622b",
+  "category": "歌名",
+  "keyboard": "徐来高广多可贵北以南基有扬台重雄苏隆爱少",
+  "ID": "__00200",
+  "answer_char_count": 8
+}, {
+  "answer": "0fe7cdfd824127689092746f52e6fa76",
+  "category": "歌名",
+  "keyboard": "红魔小直丝锥神下拉改雅一大雨典",
+  "ID": "__00201",
+  "answer_char_count": 4
+}, {
+  "answer": "f7bd91957d5d1a99e3886c9ef7b24250",
+  "category": "歌名",
+  "keyboard": "伯金来城提波这索也里你在原来莱斯利铁西大铁",
+  "ID": "__00202",
+  "answer_char_count": 7
+}, {
+  "answer": "25ccf43ea5de2728c18ebe719b5ac0a8",
+  "category": "歌名",
+  "keyboard": "迪西萄的葡班月纳我代表尔切摩牙浦心纳物森亮西利",
+  "ID": "__00203",
+  "answer_char_count": 7
+}, {
+  "answer": "d8c1b8e17a403de97037bda879fdd7a4",
+  "category": "歌名",
+  "keyboard": "亮切洛那月兰加罗文蒂图里尤巴之塞斯上",
+  "ID": "__00204",
+  "answer_char_count": 4
+}, {
+  "answer": "45327ec6f9a5272a7c59b569e3af3a39",
+  "category": "歌名",
+  "keyboard": "月份越灭孤辐单逃惊染病长越亡射绝大传恐",
+  "ID": "__00205",
+  "answer_char_count": 6
+}, {
+  "answer": "16f661ce42581df6495c8c2fb9acec93",
+  "category": "歌名",
+  "keyboard": "样妇适郝璐帮洁伊宝舒炎卡护怎好",
+  "ID": "__00206",
+  "answer_char_count": 2
+}, {
+  "answer": "b70c739fc6aebbbd61127330a2118d03",
+  "category": "歌名",
+  "keyboard": "掌精阿比灵凡达大史机心器努蓝",
+  "ID": "__00207",
+  "answer_char_count": 2
+}, {
+  "answer": "ca0fcee1881a8ff878709ea7bd919a32",
+  "category": "歌名",
+  "keyboard": "卡己吧巴迪蒂多找自克布芒",
+  "ID": "__00208",
+  "answer_char_count": 3
+}, {
+  "answer": "0f24b13c45d01739533db25deb0d04fd",
+  "category": "歌名",
+  "keyboard": "加耳敦开旧罗哥坡金蒂梵爱真土普新冈马山你加芝的其",
+  "ID": "__00209",
+  "answer_char_count": 4
+}, {
+  "answer": "88db283c87a3a8d8af7103333bae9db1",
+  "category": "歌名",
+  "keyboard": "心真来国尔塞马亚利雄英维牙匈西亚帝",
+  "ID": "__00210",
+  "answer_char_count": 4
+}, {
+  "answer": "de9f86a47c874bb93da4d4c5c81890ca",
+  "category": "歌名",
+  "keyboard": "斯彻特兰曼萨还克黑尼福你至法有慕少",
+  "ID": "__00211",
+  "answer_char_count": 5
+}, {
+  "answer": "482ba4011e7c3c2436977e7267663281",
+  "category": "歌名",
+  "keyboard": "然马卷皮伦黎佛柏伦林敦自罗巴罗",
+  "ID": "__00212",
+  "answer_char_count": 3
+}, {
+  "answer": "bb5e818143a1f03f71026896b21f4fcb",
+  "category": "歌名",
+  "keyboard": "宛匈埔比利时立最想柬坡宾寨的梦利陶新加菲律初牙",
+  "ID": "__00213",
+  "answer_char_count": 5
+}, {
+  "answer": "bf2eb6a826de4299b8abdfd87027a435",
+  "category": "歌名",
+  "keyboard": "国法美兰英最美荷韩",
+  "ID": "__00214",
+  "answer_char_count": 2
+}, {
+  "answer": "149629277f71ba536985022e9c55e0e0",
+  "category": "歌名",
+  "keyboard": "陌本生麦特啼迪人的保最巴里悉萨尔罗熟",
+  "ID": "__00215",
+  "answer_char_count": 7
+}, {
+  "answer": "104e3560158fd40491eb471b63dd6d4d",
+  "category": "歌名",
+  "keyboard": "拉卡普罗族炫民卡开特本最萨风",
+  "ID": "__00216",
+  "answer_char_count": 5
+}, {
+  "answer": "b238884d7f2451fbe73f43375c5b13aa",
+  "category": "歌名",
+  "keyboard": "风以清嫩萨醉",
+  "ID": "__00217",
+  "answer_char_count": 3
+}, {
+  "answer": "84d2a3faea538ff2ca6cd365ac950f55",
+  "category": "歌名",
+  "keyboard": "黎台边巴贝北里拉左",
+  "ID": "__00218",
+  "answer_char_count": 2
 }]
 }
