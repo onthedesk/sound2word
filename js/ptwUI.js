@@ -73,7 +73,7 @@ PtwUI.prototype.init = function() {
 	});
 	this.stage.find('.btnCopyUrl').on(this.touchEnd, function(e) {
 		_hmt.push(['_trackEvent', 'CopyUrl', 'click']);
-		copyToClipboard('http://pictoword.hortorgame.com');
+		copyToClipboard('http://songtoword.hortorgame.com');
 	});
 	this.successUI.find('#play-success-next').on(this.touchEnd, function(){
         if ( that.controller.isSingleQuestionMode ) {

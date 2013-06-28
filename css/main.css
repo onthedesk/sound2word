@@ -449,6 +449,11 @@ h1,h2,h3,h4 {
 	border-bottom: 5px solid #121e53;
 	text-shadow: 1px 1px 2px #121e53;
 }
+.btn-disabled {
+	background-color: #666!important;
+	border-bottom-color: #333!important;
+	text-shadow: 1px 1px 2px #333!important;
+}
 #start-btnPlay{
 	padding:15px 30px;
 	border-radius: 20px;
