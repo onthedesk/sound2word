@@ -195,9 +195,10 @@ Controller.prototype.loadSingleQuestion = function() {
  	}
 }
 Controller.prototype.loadCurrentQuestions = function () {
+	console.log('here');
     if (this.isSingleQuestionMode) {
         this.loadSingleQuestion();
-
+        
         preloadImages(this.questionRepo);
         return;
     }
@@ -205,7 +206,7 @@ Controller.prototype.loadCurrentQuestions = function () {
     start = (this.currentQuestionBatch - 1) * this.questionRepoSize;
     end = Math.min(this.questions.length, start + this.questionRepoSize);
 
-    if (start > end) {
+    if (!(start < end)) {
         //no more questions
         this.saveInCookie();
         controller.isFinish = true;
