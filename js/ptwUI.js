@@ -1,4 +1,4 @@
-function PtwUI () {
+﻿function PtwUI () {
 }
 
 PtwUI.stage;
@@ -117,7 +117,26 @@ PtwUI.prototype.showMenuUI= function(){
     this.addAnimation('#start-btnPlay', 'bounceInUp', 500, null);
     this.addAnimation('#start-level', 'bounceIn', 500, null);
     this.playAnimationsFrom(0);
-    
+}
+
+PtwUI.prototype.showMenuUIForFullGame = function () {
+    this.menuUI.find('.loading').removeClass('loading');
+    $('#start-level').html(this.controller.currentQuestionLevel);
+    $("#start-btnPlay").html("马上试玩");
+    var btnDownloadFromApple = $("<a id='start-iphone-download'></a>").attr("href", "http://itunes.apple.com/us/app/feng-kuang-cai-ge/id658699277")
+        .attr("class", "btn ")
+        .attr("target", "_blank")
+        .attr("style", "margin-bottom:5px")
+        .html('<big>在AppStore下载完整版</big><br/><small>支持iPad iPhone</small>').click(function () { _hmt.push(['_trackEvent', 'AppDownload', 'click']); });
+    var btnDownloadFromAndroid = $("<a id='start-android-download'></a>")
+        .attr("class", "btn btn-success btn-disabled")
+        .attr("target", "_blank")
+        .html('<big>下载Android完整版</big><br/><small>即将推出，敬请期待！</small>').click(function () { _hmt.push(['_trackEvent', 'AppDownload', 'click']); });
+    $("#start-btnPlay").parent().append(btnDownloadFromApple).append(btnDownloadFromAndroid);
+
+    this.addAnimation('#start-btnPlay, #start-iphone-download, #start-android-download', 'bounceInUp', 500, null);
+    this.addAnimation('#start-level', 'bounceIn', 500, null);
+    this.playAnimationsFrom(0);
 }
 PtwUI.prototype.showInGameUI= function(){
 	this.switchPageTo(this.inGameUI);
