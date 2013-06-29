@@ -140,27 +140,27 @@ Controller.prototype.loadAllQuestions = function () {
     if (this.isSingleQuestionMode && this.singleQuestionId != "") {
         filename = "questions_full.json";
     }
-    $.getJSON( this.dataBaseUrl + filename, function (data) {
-            that.questions = data["questions"];
-            if (data["questionRepoSize"]) {
-                that.questionRepoSize = data["questionRepoSize"];
-            }
-            that.generateLevels();
-            that.loadCurrentQuestions();
+    $.getJSON(this.dataBaseUrl + filename, function (data) {
+        that.questions = data["questions"];
+        if (data["questionRepoSize"]) {
+            that.questionRepoSize = data["questionRepoSize"];
+        }
+        that.generateLevels();
+        that.loadCurrentQuestions();
     }).fail(function () {
-    		if ( that.isSingleQuestionMode ) {
-	    		that.dataBaseUrl = "data/";
-	            that.singleQuestionId = "";
-	            that.loadAllQuestions();
-	            
-    		} else {
-    			that.isPreloadFinished = false;
-	    		alert("很抱歉，找不到题库！请和管理员联系");
-    		}
-    		
-            
+        if (that.isSingleQuestionMode) {
+            that.dataBaseUrl = "data/";
+            that.singleQuestionId = "";
+            that.loadAllQuestions();
+
+        } else {
+            that.isPreloadFinished = false;
+            alert("很抱歉，找不到题库！请和管理员联系");
+        }
+
+
     });
-    
+
 }
 
 Controller.prototype.generateLevels = function() {
@@ -195,9 +195,10 @@ Controller.prototype.loadSingleQuestion = function() {
  	}
 }
 Controller.prototype.loadCurrentQuestions = function () {
+	console.log('here');
     if (this.isSingleQuestionMode) {
         this.loadSingleQuestion();
-
+        
         preloadImages(this.questionRepo);
         return;
     }
@@ -205,7 +206,7 @@ Controller.prototype.loadCurrentQuestions = function () {
     start = (this.currentQuestionBatch - 1) * this.questionRepoSize;
     end = Math.min(this.questions.length, start + this.questionRepoSize);
 
-    if (start > end) {
+    if (!(start < end)) {
         //no more questions
         this.saveInCookie();
         controller.isFinish = true;
