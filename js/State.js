@@ -26,7 +26,7 @@ function StateMachine() {
             return this.states[name];
         }
         else {
-            console.log("StateMachine::getState - this is not a state called [ " + name + " ]");
+            //console.log("StateMachine::getState - this is not a state called [ " + name + " ]");
         }
     }
     this.SetStateByName = function (stateName) {
@@ -38,7 +38,7 @@ function StateMachine() {
     this.SetState = function (state) {
         if (state != null) {
             if (state == this.currentState) {
-                console.log("WARNING @ StateMachine::setCurrentState -" + "var state [ " + state.name + " ] is the same as current state" );
+                //console.log("WARNING @ StateMachine::setCurrentState -" + "var state [ " + state.name + " ] is the same as current state" );
                 return;
             }
             this.lastState = this.currentState;
@@ -49,7 +49,7 @@ function StateMachine() {
             this.currentState.OnEnter();
         }
         else {
-            console.log( "ERROR @ StateMachine::setCurrentState - " + " var [state] is not a class type of State" );
+            //console.log( "ERROR @ StateMachine::setCurrentState - " + " var [state] is not a class type of State" );
         }
     }
 }

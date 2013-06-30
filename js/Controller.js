@@ -26,7 +26,7 @@ function Controller() {
     
     //preload
     this.minPreloadTime = 2500;
-    this.isPreloadFinished = true;//for fake progress
+    this.isPreloadFinished = false;//for fake progress
     this.isPreloadTimeUp = false;
     this.preloadTimer;
     //data url
@@ -34,6 +34,7 @@ function Controller() {
     
     //song player
     this.songPlayer;
+    this.isSongPlayerReady = false;
     
     this.loadCharactors();
     this.preloadInGameUIImages();
@@ -127,6 +128,16 @@ Controller.prototype.loadCharactors = function () {
 
 
 Controller.prototype.handlePreloadRequest = function() {
+	
+	if ( this.isSongPlayerReady ) {
+		this.beginLoadQuestions();
+	} else {
+		this.initSongPlayer();
+	}
+	
+	
+}
+Controller.prototype.beginLoadQuestions = function() {
 	if ( this.questions.length < 1 ) {
 	    this.loadAllQuestions();
     } else {
@@ -140,27 +151,27 @@ Controller.prototype.loadAllQuestions = function () {
     if (this.isSingleQuestionMode && this.singleQuestionId != "") {
         filename = "questions_full.json";
     }
-    $.getJSON(this.dataBaseUrl + filename, function (data) {
-        that.questions = data["questions"];
-        if (data["questionRepoSize"]) {
-            that.questionRepoSize = data["questionRepoSize"];
-        }
-        that.generateLevels();
-        that.loadCurrentQuestions();
+    $.getJSON( this.dataBaseUrl + filename, function (data) {
+            that.questions = data["questions"];
+            if (data["questionRepoSize"]) {
+                that.questionRepoSize = data["questionRepoSize"];
+            }
+            that.generateLevels();
+            that.loadCurrentQuestions();
     }).fail(function () {
-        if (that.isSingleQuestionMode) {
-            that.dataBaseUrl = "data/";
-            that.singleQuestionId = "";
-            that.loadAllQuestions();
-
-        } else {
-            that.isPreloadFinished = false;
-            alert("很抱歉，找不到题库！请和管理员联系");
-        }
-
-
+    		if ( that.isSingleQuestionMode ) {
+	    		that.dataBaseUrl = "data/";
+	            that.singleQuestionId = "";
+	            that.loadAllQuestions();
+	            
+    		} else {
+    			that.isPreloadFinished = false;
+	    		alert("很抱歉，找不到题库！请和管理员联系");
+    		}
+    		
+            
     });
-
+    
 }
 
 Controller.prototype.generateLevels = function() {
@@ -195,7 +206,6 @@ Controller.prototype.loadSingleQuestion = function() {
  	}
 }
 Controller.prototype.loadCurrentQuestions = function () {
-	console.log('here');
     if (this.isSingleQuestionMode) {
         this.loadSingleQuestion();
         
@@ -230,6 +240,7 @@ Controller.prototype.loadCurrentQuestions = function () {
     preloadImages(this.questionRepo);
 }
 Controller.prototype.setCurrentSongUrl = function() {
+	
 	var url = "http://" + window.location.host + window.location.pathname;
 	url = url.substring(0, url.lastIndexOf('/') + 1);
 	var m4aUrl = url + controller.dataBaseUrl + "music/" + 'm4a/' + sprintf("%s.m4a", this.currentQuestionId);
@@ -238,18 +249,31 @@ Controller.prototype.setCurrentSongUrl = function() {
 		m4a: m4aUrl,
 		oga: oggUrl
 	});
+	//	this.songPlayer.play();
 	
-	this.songPlayer.play();
 	
 }
 Controller.prototype.initSongPlayer = function() {
+	
+	var url = "http://" + window.location.host + window.location.pathname;
+	url = url.substring(0, url.lastIndexOf('/') + 1);
+	var m4aUrl = url + controller.dataBaseUrl + "music/" + 'm4a/__00000.m4a';
+	var oggUrl = url + controller.dataBaseUrl + "music/" + 'ogg/__00000.ogg';
+	
+	
 	this.songPlayer = new CirclePlayer("#jquery_jplayer_1",
-	{ }, {
+	{m4a:m4aUrl, oga:oggUrl }, {
 		cssSelectorAncestor: "#question-audio"
 	});
 	
+	
 	this.songPlayer.player.bind($.jPlayer.event.ready, function(event) {
-			$('#jquery_jplayer_1').bind($.jPlayer.event.play, function(event) {
+			
+			controller.beginLoadQuestions();
+		
+			controller.isPreloadFinished = true;
+			controller.isSongPlayerReady = true;
+			$(this).bind($.jPlayer.event.play, function(event) {
 					$('#question-audio-record').addClass('span');
 			});
 			$(this).bind($.jPlayer.event.pause, function(event) {
@@ -266,7 +290,13 @@ Controller.prototype.initSongPlayer = function() {
 			$('audio').bind('error', function(e) {
 				alert('很抱歉，音频加载出错了！错误代码' + e.currentTarget.error.code);
 			});
-			$(this).unbind($.jPlayer.event.ready);
+			
+			
+			controller.songPlayer.player.unbind($.jPlayer.event.ready);
+			
+			
+		
+			
 	});
 
 	

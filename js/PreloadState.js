@@ -3,6 +3,7 @@ var loadingProgress;
 var event = { "loaded": 0 };
 function OnEnterPreloadState() {
 	controller.handlePreloadRequest();
+	
 	if ( !controller.isFinish )	{
 		ptwUI.showLoadingUI();
 		_hmt.push(['_trackPageview', '/preload']);
@@ -11,7 +12,6 @@ function OnEnterPreloadState() {
 		controller.preloadTimer = setTimeout("preloadTimeUp()", controller.minPreloadTime);
 	}
 	
-	controller.initSongPlayer();
 	
 }
 function OnExitPreloadState()
