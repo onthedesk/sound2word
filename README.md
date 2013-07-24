@@ -1,3 +1,7 @@
+## onthedesk修改日志
+### 制作苏打绿专版
+### 增加打包为离线应用功能
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
